@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I completed a Ph.D. degree at [Computer Science](http://www.cs.bu.edu/) 
+I completed a Ph.D. degree at [Computer Science](http://www.cs.bu.edu/) Department of [Boston University](http://www.bu.edu/) in June 2017 and I am currently a machine learning engineer working on NLP and Learning to Rank problems.  My research interests are in the areas of Natural Language Processing, applied machine learning and deep learning, algorithmic data-mining.
+During my Ph.D., I worked with Professor [Evimaria Terzi](https://www.cs.bu.edu/~evimaria/), Professor [Theodoros Lappas](http://tedlappas.com/), and Professor  [Vagelis Papalexakis](http://www.cs.ucr.edu/~epapalex/). Before joining [Data Mining and Machine Learning Group](http://www.bu.edu/cs/dblab/) in 2015, I was a member of [Networks Research Group](http://www.bu.edu/cs/nrg/) and [iBench Initiative](https://sites.google.com/site/ibenchbu/) working with Professor [Azer Bestavros](http://azer.bestavros.net/).
+
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
   
 
