@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Shariaty University, 2011
 * Ph.D in Computer Science, Boston University, 2017
+* B.S. in Computer Science, Shariaty University, 2011
 
 Work experience
 ======
@@ -24,6 +24,11 @@ Work experience
   * Stevens Institute of Technology  
   * Teaching Data Science course
   * Research on forming efficient teams
+  
+* Summer 2015: Research Intern
+  * 128 Technology  
+  * Research on using machine learning for traffic modeling and traffic congestion avoidance. In addition, research on using unsupervised and supervised anomaly detection analysis using network traffic feature distributions, clustering methods, and neural networks.
+
   
 Skills
 ======
