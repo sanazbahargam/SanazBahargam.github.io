@@ -11,30 +11,29 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Shariaty University, 2011
+* Ph.D in Computer Science, Boston University, 2017
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017 - Present: Machine Learning Engineer
+  * Twitter
+  * NLProc, Learning to Rank
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2016: Visiting Research Scientist and Adjunt Professor
+  * stevens institute of technology  
+  * Teaching Data Science course
+  * Research on forming efficient teams
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Natural Langugage Processing
+* Deep Learning
+  * Pytorch, Transformers, PyTorch Lightning, Keras
+* Machine Learning
+* Data Mining
+* Data Science
+* Python, Scala, C/C++, Java, Matlab, R
 
 Publications
 ======
