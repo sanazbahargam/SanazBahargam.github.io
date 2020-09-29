@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/ASONAM2018
 date: 2018-10-01
 venue: 'IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining'
-citation: <b>Sanaz Bahargam</b>,  Evangelos Papalexakis <b>ASONAM 2018</b>.'
+citation: <b>Sanaz Bahargam</b>,  Evangelos Papalexakis <b>ASONAM 2018</b>.
 ---
 [[PDF]](https://arxiv.org/pdf/1807.00122.pdf)
 [[Short version]](https://www.cs.ucr.edu/~epapalex/papers/asonam18-topic.pdf)
