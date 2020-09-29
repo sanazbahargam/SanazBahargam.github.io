@@ -55,4 +55,25 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+<b> PC member: </b>
+<ul>
+<li>North American Chapter of the Association for Computational Linguistics, [NAACL 2019]("https://naacl2019.org/blog/kudos-reviewers/) </li>
+<li> LXAI, [ICML 2019](https://www.latinxinai.org/icml-2019#workshop-org) </li>
+<li>IEEE Transactions on Knowledge and Data Engineering, TKDE 2018</li>
+<li> WIML, NIPS 2017 </li>
+</ul>
+
+<b> External Reviewer:</b>
+<ul>
+<li>KDD-2019</li>
+<li>ICDE-2018</li>
+<li>TKDE 2017</li>
+<li>KDD-2017</li>
+<li>WWW-2017</li>
+<li>WSDM-2017</li>
+<li>ICDM-2016</li>
+<li>CIKM-2016</li>
+<li>WWW- 2016</li>
+<li>INFORMS Journal on Computing (IJOC)-2016</li>
+<li>WSDM-2016</li>
+</ul>
