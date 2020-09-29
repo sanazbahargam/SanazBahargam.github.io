@@ -7,7 +7,7 @@ venue: 'Expert Systems with Applications'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0957417418307048'
 citation: 'Sidi Lu, <b>Sanaz Bahargam</b>, Behzad Golshan, Theodoros Lappas, Evimaria Terzi <i>Expert Systems with Applications</i>. <b>Expert Systems with Applications 2019</b>.'
 ---
-[[PDF]](http://academicpages.github.io/files/paper1.pdf)
+[[PDF]](https://www.sciencedirect.com/science/article/pii/S0957417418307048)
 
 ## Abstract
 In recent years, the proliferation of online resumes and the need to evaluate large populations of candidates for on-site and virtual teams have led to a growing interest in automated team-formation. Given a large pool of candidates, the general problem requires the selection of a team of experts to complete a given task. Surprisingly, while ongoing research has studied numerous variations with different constraints, it has overlooked a factor with a well-documented impact on team cohesion and performance: team faultlines. Addressing this gap is challenging, as the available measures for faultlines in existing teams cannot be efficiently applied to faultline optimization. In this work, we meet this challenge with a new measure that can be efficiently used for both faultline measurement and minimization. We then use the measure to solve the problem of automatically partitioning a large population into low-faultline teams. By introducing faultlines to the team-formation literature, our work creates exciting opportunities for algorithmic work on faultline optimization, as well as on work that combines and studies the connection of faultlines with other influential team characteristics.
