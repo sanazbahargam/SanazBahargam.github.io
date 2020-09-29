@@ -57,7 +57,7 @@ Service and leadership
 ======
 <b> PC member: </b>
 <ul>
-<li>North American Chapter of the Association for Computational Linguistics, [NAACL 2019]("https://naacl2019.org/blog/kudos-reviewers/) </li>
+<li>North American Chapter of the Association for Computational Linguistics, [NAACL 2019](https://naacl2019.org/blog/kudos-reviewers/) </li>
 <li> LXAI, [ICML 2019](https://www.latinxinai.org/icml-2019#workshop-org) </li>
 <li>IEEE Transactions on Knowledge and Data Engineering, TKDE 2018</li>
 <li> WIML, NIPS 2017 </li>
