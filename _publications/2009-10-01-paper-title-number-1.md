@@ -5,7 +5,7 @@ permalink: /publication/2009-10-01-paper-title-number-1
 date: 2019-10-01
 venue: 'Expert Systems with Applications'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0957417418307048'
-citation: 'Sidi Lu, <b>Sanaz Bahargam</b>, Behzad Golshan, Theodoros Lappas, Evimaria Terzi <i>Expert Systems with Applications</i>. <b>Expert Systems with Applications 2019</b>.'
+citation: <b>Sanaz Bahargam</b>, Behzad Golshan, Theodoros Lappas, Evimaria Terzi <i>Expert Systems with Applications</i>. <b>Expert Systems with Applications 2019</b>.'
 ---
 [[PDF]](https://www.sciencedirect.com/science/article/pii/S0957417418307048)
 
