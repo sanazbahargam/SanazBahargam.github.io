@@ -18,10 +18,10 @@ Work experience
 ======
 * 2017 - Present: Machine Learning Engineer
   * Twitter
-  * NLProc, Learning to Rank
+  * Area of Expertise: NLProc, Learning to Rank
 
 * Summer 2016: Visiting Research Scientist and Adjunt Professor
-  * stevens institute of technology  
+  * Stevens Institute of Technology  
   * Teaching Data Science course
   * Research on forming efficient teams
   
