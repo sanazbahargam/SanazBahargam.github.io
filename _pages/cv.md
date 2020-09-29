@@ -61,25 +61,20 @@ Teaching
 Service and leadership
 ======
 <b> PC member: </b>
-North American Chapter of the Association for Computational Linguistics [NAACL 2019](https://naacl2019.org/blog/kudos-reviewers/) 
-<ul>
- 
-<li> LXAI [ICML 2019](https://www.latinxinai.org/icml-2019#workshop-org/) </li>
-<li> IEEE Transactions on Knowledge and Data Engineering, TKDE 2018</li>
-<li> WIML, NIPS 2017 </li>
-</ul>
+* North American Chapter of the Association for Computational Linguistics [NAACL 2019](https://naacl2019.org/blog/kudos-reviewers/) 
+* LXAI [ICML 2019](https://www.latinxinai.org/icml-2019#workshop-org/) 
+* EEE Transactions on Knowledge and Data Engineering, TKDE 2018
+* WIML, NIPS 2017 
 
 <b> External Reviewer:</b>
-<ul>
-<li>KDD-2019</li>
-<li>ICDE-2018</li>
-<li>TKDE 2017</li>
-<li>KDD-2017</li>
-<li>WWW-2017</li>
-<li>WSDM-2017</li>
-<li>ICDM-2016</li>
-<li>CIKM-2016</li>
-<li>WWW- 2016</li>
-<li>INFORMS Journal on Computing (IJOC)-2016</li>
-<li>WSDM-2016</li>
-</ul>
+* KDD-2019
+* ICDE-2018
+* TKDE 2017
+* KDD-2017
+* WWW-2017
+* WSDM-2017
+* ICDM-2016
+* CIKM-2016
+* WWW- 2016
+* INFORMS Journal on Computing (IJOC)-2016
+* WSDM-2016
