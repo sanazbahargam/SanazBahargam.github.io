@@ -1,15 +1,12 @@
 ---
-title: "Paper Title Number 2"
+title: "The Guided TeamPartitioning Problem: Definition, Complexity, and Algorithm"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2009-10-01-paper-title-number-1
+date: 2019-10-01
+venue: 'Expert Systems with Applications'
+citation: <b>Sanaz Bahargam</b>, Theodoros Lappas, Evimaria Terzi  <b>The 12 International Conference on Educational Data Mining</b>.'
 ---
-This paper is about the number 2. The number 3 is left for future work.
+[[PDF]](https://arxiv.org/pdf/1905.03037.pdf)
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+## Abstract
+A long line of literature has focused on the problem of selecting a team of individuals from a large pool of candidates, such that certain constraints are respected, and a given objective function is maximized. Even though extant research has successfully considered diverse families of objective functions and constraints, one of the most common limitations is the focus on the single-team paradigm. Despite its well-documented applications in multiple domains, this paradigm is not appropriate when the team-builder needs to partition the entire population into multiple teams. Team-partitioning tasks are very common in an educational setting, in which the teacher has to partition the students in her class into teams for collaborative projects. The task also emerges in the context of organizations, when managers need to partition the workforce into teams with specific properties to tackle relevant projects. In this work, we extend the team formation literature by introducing the Guided Team-Partitioning (GTP) problem, which asks for the partitioning of a population into teams such that the centroid of each team is as close as possible to a given target vector. As we describe in detail in our work, this formulation allows the team-builder to control the composition of the produced teams and has natural applications in practical settings. Algorithms for the GTP need to simultaneously consider the composition of multiple non-overlapping teams that compete for the same population of candidates. This makes the problem considerably more challenging than formulations that focus on the optimization of a single team. In fact, we prove that GTP is NP-hard to solve and even to approximate. The complexity of the problem motivates us to consider efficient algorithmic heuristics, which we evaluate via experiments on both real and synthetic datasets
