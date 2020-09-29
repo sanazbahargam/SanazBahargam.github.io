@@ -1,0 +1,22 @@
+---
+title: "Software-Defined IDS for Securing Embedded Mobile Devices."
+collection: publications
+permalink: /publication/HPEC2013
+date: 2013-10-01
+venue: '2013 IEEE High Performance Extreme Computing Conference '
+citation: <b>Sanaz Bahargam</b>, Richard Skowyra, Azer Bestavros <b>HPEC2013</b>.
+---
+[[PDF]](https://core.ac.uk/download/pdf/142057618.pdf)
+
+## Abstract
+The increasing deployment of networked mobile
+embedded devices leads to unique challenges communications
+security. This is especially true for embedded biomedical devices
+and robotic materials handling, in which subversion or denial of
+service could result in loss of human life and other catastrophic
+outcomes.
+In this paper we present the Learning Intrusion Detection
+System (L-IDS), a network security service for protecting embedded mobile devices within institutional boundaries, which can be
+deployed alongside existing security systems with no modifications
+to the embedded devices. L-IDS utilizes the OpenFlow SoftwareDefined Networking architecture, which allows it to both detect
+and respond to attacks as they happen.
