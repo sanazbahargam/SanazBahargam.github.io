@@ -11,7 +11,7 @@ redirect_from:
 {% include base_path %}
 
 <br>
-<br>
+
 Education
 ======
 * Ph.D in Computer Science, Boston University, 2017
