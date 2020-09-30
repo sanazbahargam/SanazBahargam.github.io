@@ -12,6 +12,8 @@ I completed a Ph.D. degree at [Computer Science](http://www.cs.bu.edu/) Departme
 During my Ph.D., I worked with Professor [Evimaria Terzi](https://www.cs.bu.edu/~evimaria/), Professor [Theodoros Lappas](http://tedlappas.com/), and Professor  [Vagelis Papalexakis](http://www.cs.ucr.edu/~epapalex/). Before joining [Data Mining and Machine Learning Group](http://www.bu.edu/cs/dblab/) in 2015, I was a member of [Networks Research Group](http://www.bu.edu/cs/nrg/) and [iBench Initiative](https://sites.google.com/site/ibenchbu/) working with Professor [Azer Bestavros](http://azer.bestavros.net/).
 
 Besides work, I often play volley with friends, I enjoy [hiking](https://photos.app.goo.gl/qB9zyZesNQTKm1GXA) and photography. 
+
+
 Recent News
 ======
 
