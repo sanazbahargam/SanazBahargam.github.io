@@ -20,7 +20,6 @@ Recent News
 * November 27, 2018. My [notes and summary of talks](https://github.com/sanazbahargam/CODE2018) on 2018 Conference on Digital Experimentation (CODE).
 * October 25, 2018. Our paper  [Team Formation Algorithm for Faultline Minimization](https://sanazbahargam.github.io/publication/ESA2019) was accepted at Expert Systems with Applications (ESWA).
 * July 11, 2018. My [notes](https://github.com/sanazbahargam/SanazBahargam.github.io) on NAACL 2018.
-* July 11, 2018. My [notes](https://github.com/sanazbahargam/SanazBahargam.github.io) on NAACL 2018.
 * June 18, 2018. Our paper  [Constrained Coupled Matrix-Tensor Factorization and its Application in Pattern and Topic Detection](https://sanazbahargam.github.io/publication/ASONAM2018) was accepted at ACM International Conference on Advances in Social Networks Analysis and Mining, 2018 (ASONAM).
 * May 22, 2018. Our paper  [Discovering Time-Evolving Topics of Varying Levels of Difficulty via Constrained Coupled Matrix-Tensor Factorization](https://sanazbahargam.github.io/publication/IC2S22018) was accepted for poster presentation at 4th International Conference on Computational Social Science (IC2S2).
 * February 1, 2018. My [notes](https://github.com/sanazbahargam/Query-Understanding) on query undestanding.
