@@ -16,4 +16,11 @@ Besides work, I often play volley with friends, I enjoy [hiking](https://photos.
 
 Recent News
 ======
+* November 27, 2018. My [notes and summary of talks](https://github.com/sanazbahargam/CODE2018) on 2018 Conference on Digital Experimentation (CODE).
+* July 11, 2018. My [notes](https://github.com/sanazbahargam/SanazBahargam.github.io) on NAACL 2018.
+* July 11, 2018. My [notes](https://github.com/sanazbahargam/SanazBahargam.github.io) on NAACL 2018.
+* February 1, 2018. My [notes](https://github.com/sanazbahargam/Query-Understanding) on query undestanding.
+* August 30, 2017. I'mdelighted to join Twitter as an ML engineer to work on NLP and ranking problems.
+* June 15, 2017. I successfully defended my Ph.D. dissertation.
+
 
