@@ -21,6 +21,7 @@ Recent News
 * October 25, 2018. Our paper  [Team Formation Algorithm for Faultline Minimization](https://sanazbahargam.github.io/publication/ESA2019) was accepted at Expert Systems with Applications (ESWA).
 * July 11, 2018. My [notes](https://github.com/sanazbahargam/SanazBahargam.github.io) on NAACL 2018.
 * July 11, 2018. My [notes](https://github.com/sanazbahargam/SanazBahargam.github.io) on NAACL 2018.
+* May 22, 2018. Our paper  [Discovering Time-Evolving Topics of Varying Levels of Difficulty via Constrained Coupled Matrix-Tensor Factorization](https://sanazbahargam.github.io/publication/IC2S22018) was accepted for poster presentation at 4th International Conference on Computational Social Science (IC2S2).
 * February 1, 2018. My [notes](https://github.com/sanazbahargam/Query-Understanding) on query undestanding.
 * August 30, 2017. I'm delighted to join Twitter as an ML engineer to work on NLP and ranking problems.
 * June 15, 2017. I successfully defended my Ph.D. dissertation.
