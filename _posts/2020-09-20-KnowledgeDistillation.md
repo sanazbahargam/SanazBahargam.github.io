@@ -14,7 +14,8 @@ When computational resources are limited, the model can be made smaller b sharin
 Knowledge distillation is a very successful model compression method in which a small model is trained to mimic a pre-trained, larger mode. 
 
  In distillation, a large trained model (teacher) is distilled in a smaller model (student). The important point is that the cost function of the student model is the 
- ![pic](https://github.com/sanazbahargam/NAACL-2018/blob/master/images/image0.jpg?raw=true)
+ ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/KnowledgeDistillation_loss.png?raw=true)
+ 
 
 where x is the input, W is the student model parameters, y is the ground truth label, H  is the cross-entropy loss function, σ is the softmax function parameterized by the temperature T, and α and β are coefficients. zs and zt are the logits of the student and teacher respectively.
 
