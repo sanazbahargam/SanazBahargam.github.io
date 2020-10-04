@@ -7,4 +7,6 @@ tags:
   - NLP
   - Transformers
 ---
+
+My Colab notebook on fine tuning T5 model for summarization task using Trenasformers + PyTorch Lightnin
  
