@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me | Sanaz Bahargam"
-excerpt: "About me | Sanaz Bahargam"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
