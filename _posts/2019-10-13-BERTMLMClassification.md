@@ -1,7 +1,7 @@
 ---
 title: 'Mask Language Modeling + Fine Tuning for Text Classification with BERT'
-date: 2020-02-13
-permalink: /posts/2020/02/BERTMLMClassification/
+date: 2019-10-13
+permalink: /posts/2019/10/BERTMLMClassification/
 tags:
   - Text Classification
   - NLP
