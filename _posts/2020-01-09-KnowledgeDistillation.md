@@ -1,7 +1,7 @@
 ---
 title: 'Knowledge Distillation'
-date: 2020-09-20
-permalink: /posts/2020/09/KnowledgeDistillation/
+date: 2020-01-09
+permalink: /posts/2020/01/KnowledgeDistillation/
 tags:
   - Knowledge Distillation
   - Machine Learning
@@ -10,7 +10,7 @@ tags:
 [Distilling the Knowledge in a Neural Network](https://arxiv.org/pdf/1503.02531.pdf)
 
 We have built sophisticated models that solve complex problems such as natural language inference and common sense reasoning. However, these large, high performing models come with their own costs. They need a huge amount of computational resources (such as GPU’s memory), are slow (depending on computation resources), and hence cannot be run on low resource devices such as a mobile device. 
-When computational resources are limited, the model can be made smaller b sharing parameters, quantization, and knowledge distillation. 
+When computational resources are limited, the model can be made smaller by sharing parameters, quantization, and knowledge distillation. 
 Knowledge distillation is a very successful model compression method in which a small model is trained to mimic a pre-trained, larger mode. 
 
  In distillation, a large trained model (teacher) is distilled in a smaller model (student). The important point is that the cost function of the student model is the 
