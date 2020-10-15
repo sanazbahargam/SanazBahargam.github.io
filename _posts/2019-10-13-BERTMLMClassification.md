@@ -10,5 +10,5 @@ tags:
   - Masked Language Modeling
 ---
 
-My [Colab notebook]() on Masked Language Modeling (MLM) + Fine Tuning for Text Classification with BERT. In this notebook, you can see how to train a BERT model on your data for MLM task and then fine tune it for text classification.
+My [Colab notebook](https://drive.google.com/file/d/1HDDgSVEJgAom4cdgxtrPdFmMkMYXckqi/view?usp=sharing) on Masked Language Modeling (MLM) + Fine Tuning for Text Classification with BERT. In this notebook, you can see how to train a BERT model on your data for MLM task and then fine tune it for text classification. This includes how to encode the data, masked the tokens and train a model from scratch (or train on a pretrained model :). You can load this model and fine tuned it on your labeled data for classification. 
  
