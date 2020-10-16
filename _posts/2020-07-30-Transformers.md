@@ -17,7 +17,7 @@ This post contains my notes throughout years on different transformers. These no
 
 
 # Attention is all you need
-![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/transformer_block.png | height=100)
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/transformer_block.png | width=48)
 
 Positional encoding
 Using sin and cos functions, the earlier dimensions have smaller wavelengths and can capture short range offset, while the later dimensions can capture longer distance offset.
