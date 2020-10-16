@@ -13,7 +13,7 @@ tags:
 ---
 
 Transformers:
-This blog is dedicated to my not3es on transformers during the past couple of years. These notes are very crude and not edited yet (more like my cheat sheets), but I thought to share it anyway. Please let me know if you have any comments or if you find any mistakes.
+This post contains my notes throughout years on different transformers. These notes are very crude and not edited yet (more like my cheat sheets), but I thought to share it anyway. Please let me know if you have any comments or if you find any mistakes.
 
 
 # Attention is all you need
