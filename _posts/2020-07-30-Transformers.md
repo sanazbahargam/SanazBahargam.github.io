@@ -17,7 +17,7 @@ This post contains my notes throughout years on different transformers. These no
 
 
 # Attention is all you need
-![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/transformer_block.png?raw=true)
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/transformer_block.png=250x250)
 
 Positional encoding
 Using sin and cos functions, the earlier dimensions have smaller wavelengths and can capture short range offset, while the later dimensions can capture longer distance offset.
@@ -25,7 +25,7 @@ Using sin and cos functions, the earlier dimensions have smaller wavelengths and
 Transformer blocks are characterized by a multi-head self-attention mechanism, a position- wise feed-forward network, layer normalization modules and residual con- nectors. The input to the Transformer model is often a tensor of shape RB × RN , where B is the batch size, N the sequence length.
 
 # GPT
-![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/gpt.png?raw=true=250x250)
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/gpt.png)
 ALL GPTs have only the transformer decoder (and not the encore part). In GPT first the model is pre-trained for LM tasks (causal LM) and then fine-tuned on the final task. They found that including language modeling as an auxiliary objective to the fine-tuning helped learning by (a) improving generalization of the supervised model, and (b) accelerating convergence. So the final objective is 
 L3(C) = L2(C) + λ ∗ L1(C) 
 in which L2 is the objective for labeled data and L1 is the objective for LM. 
