@@ -17,6 +17,7 @@ This post contains my notes throughout years on different transformers. These no
 
 
 # Attention is all you need
+<img src="https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/transformer_block.png" height="24" width="48">
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/transformer_block.png =24x48)
 
 Positional encoding
