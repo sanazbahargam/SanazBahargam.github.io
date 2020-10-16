@@ -54,6 +54,7 @@ GPT3 has lower data compression compared to GPT2 so, with this amount of paramet
 
 
 # XLNet
+<img src="https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/xlnet.png" height="483px" width="540px">
 Similar to Bert, Trained on booksCorpus and English Wikipedia (13GB of plain text) for pretraining. In addition, they include  Giga5(16 GB) ClueWeb (19G after filtering), Common Crawl (110 GB after filtering) for pretraining. In total, they have 32.89 B tokens.
 XLNet-Large is similar to BERT-Large in model size and they use a sequence of 512. 
 With a batch size of 8192, it took 5.5 days to train and still it under fits the data.
