@@ -6,9 +6,9 @@ tags:
   - Knowledge Distillation
   - Machine Learning
 ---
-In this post, I will discuss what is knowledge distillation, what is the intuition behind it, and why it works!
+In this post, I will discuss what is knowledge distillation (also refered as Student-Teacher Learning), what is the intuition behind it, and why it works!
 
-Paper:[Distilling the Knowledge in a Neural Network](https://arxiv.org/pdf/1503.02531.pdf)
+Paper: [Distilling the Knowledge in a Neural Network](https://arxiv.org/pdf/1503.02531.pdf)
 
 We have built sophisticated models that solve complex problems such as natural language inference and common sense reasoning. However, these large, high performing models come with their own costs. They need a huge amount of computational resources (such as GPU’s memory), are slow (depending on computation resources), and hence cannot be run on low resource devices such as a mobile device. 
 When computational resources are limited, the model can be made smaller by sharing parameters, quantization, and knowledge distillation. 
