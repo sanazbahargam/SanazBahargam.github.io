@@ -14,32 +14,36 @@ tags:
 
 
 # Attention is all you need
-Paper from Google
-https://arxiv.org/abs/1706.03762
+[Paper](https://arxiv.org/abs/1706.03762) from Google
+
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/Attention2.png?raw=true)
 
 The transformer era began with this paper from Google. The architecture consists of an encoder and a decoder block to solve machine translation. 
 Positional encoding
-Using sin and cos functions, the earlier dimensions have smaller wavelengths and can capture short-range offset, while the later dimensions can capture longer distance offset. This blog https://kazemnejad.com/blog/transformer_architecture_positional_encoding/  does a great job in explaining the positional encoding.
+Using sin and cos functions, the earlier dimensions have smaller wavelengths and can capture short-range offset, while the later dimensions can capture longer distance offset. [This blog]( https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)  does a great job in explaining the positional encoding.
 
 Transformer blocks are characterized by a multi-head self-attention mechanism, a position-wise feed-forward network, layer normalization modules, and residual connectors. The input to the Transformer model is often a tensor of shape RB × RN , where B is the batch size, N the sequence length.
-There are residual self-attention blocks which are efficient in transferring positional encodings to the top layers. For a deeper understanding of transformers, I recommend reading the original paper, this blogpost by  from Rémi Louf https://medium.com/@remilouf and The Annotated Transformer by Alexander Rush  https://nlp.seas.harvard.edu/2018/04/03/attention.html
-After “Attention all you need” BERT from Google and GPT from OpenAI were introduced. 
+There are residual self-attention blocks which are efficient in transferring positional encodings to the top layers. For a deeper understanding of transformers, I recommend reading the original paper, [this blogpost](https://medium.com/@remilouf) by  from Rémi Louf  and [The Annotated Transformer]( https://nlp.seas.harvard.edu/2018/04/03/attention.html) by Alexander Rush 
+After “Attention all you need” BERT from Google and GPT from OpenAI were introduced which I will exlained leter in this post. 
 
 
 # BERT
-Paper from Google
-https://arxiv.org/abs/1810.04805
+[Paper](https://arxiv.org/abs/1810.04805) from Google
 
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/BERT.png?raw=true)
 
 BERT is based on subword token encoding and multi-layer transformer architecture. The transformer blocks are the same as the original transformer blocks introduced in “Attention is all you need” paper.
 BERT uses a huge corpus of data for pre-training the model on a self-supervised task, masked language modeling. They mask tokens in the text and the decoder should predict the masked tokens. BERT masks 15% of the tokens. From the 15% selected tokens, 80% of them are actually being masked, 10% replaced by a random token, and 10% unchanged and the model is expected to predict all of these tokens (and the loss of all predictions will be backpropagated). 
-See my colab notebook for the code of masking. https://colab.research.google.com/drive/1HDDgSVEJgAom4cdgxtrPdFmMkMYXckqi
+See my [colab notebook](https://colab.research.google.com/drive/1HDDgSVEJgAom4cdgxtrPdFmMkMYXckqi) for the code of masking. 
 You may ask why not masked all the 15% of tokens?! The reason is if you are masking all the tokens masked, the model will try to only represent the masked tokens and ignore the rest. When you replace tokens by random or leave them unchanged, the model needs to make a prediction for every single token, because it doesn’t have a clue which ones are replaced by a random token which one is original, so it will make an effort to predict all the tokens and learn from all of them. 
 After pretraining, the model can be fine-tuned on many language understanding tasks such as translation, NER, QA, and text classifications. 
 
 One of the disadvantages of BERT is that BERT fails to model the joint probability of the predicted tokens, i.e. it assumes that predicted tokens ([MASK]s) are independent.
 
 # GPT
+Improving Language Understanding by Generative Pre-Training
+[Paper](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) from OpenAI
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/GPT.png?raw=true)
 
 ALL GPTs have only the transformer decoder (and not the encore part). In GPT first the model is pre-trained for LM tasks (causal LM) and then fine-tuned on the final task. They found that including language modeling as an auxiliary objective to the fine-tuning helped learning by (a) improving generalization of the supervised model, and (b) accelerating convergence. So the final objective is 
 L3(C) = L2(C) + λ ∗ L1(C) 
@@ -71,8 +75,10 @@ GPT3 has lower data compression compared to GPT2 so, with this amount of paramet
  GPT-3 shows that it is possible to improve the performance of a model by "simply" increasing the model size, and in consequence, the dataset size and the computation (TFLOP) the model consumes. However, as the performance increases, the model size has to increase more rapidly. Precisely, the model size varies as some power of the improvement of model performance. Remember language model performance scales as a power-law of model size, dataset size, and the amount of computation.
 
 # XLNet
-https://arxiv.org/abs/1906.08237
 Generalized Autoregressive Pretraining for Language Understanding” from Carnegie Mellon and Google Research.
+[Paper](https://arxiv.org/abs/1906.08237) from
+
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/XLNet.png?raw=true)
 
 Similar to Bert, XLNet is using booksCorpus and English Wikipedia (13GB of plain text). In addition, authors include Giga5(16 GB) ClueWeb (19G after filtering), Common Crawl (110 GB after filtering) for pretraining. In total, they have 32.89 B tokens.
 
@@ -91,7 +97,8 @@ Implementing the aforementioned techniques is complicated and perhaps this is wh
 
 # RoBERTa
 RoBERTa: A Robustly Optimized BERT Pretraining Approach
-https://arxiv.org/abs/1907.11692  from UW and Facebook AI
+[Paper](https://arxiv.org/abs/1907.11692)  from UW and Facebook AI
+
 
 In the RoBERTa paper, the authors first performed an ablation study on the effect of different BERT’s parts of performance on end tasks. They observed that larger batch size increases the performance, the NSP doesn’t affect performance (sometimes no NSP increases performance) and tries static vs dynamic masking and observed dynamic masking improved performance. They gathered all the learning and proposed RoBERTa (Robustly optimized BERT approach) Specifically, RoBERTa is trained with dynamic masking, FULL-SENTENCES without NSP loss, large mini-batches, and a larger byte-level BPE.
 
@@ -114,8 +121,8 @@ RoBERTa matches  XLNet models on the GLUE benchmark and sets a new state of the 
 
 
 # ALBERT
-https://arxiv.org/abs/1909.11942
-Paper from Google Research and Toyota Technological Institute 
+ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
+[Paper](https://arxiv.org/abs/1909.11942) from Google Research and Toyota Technological Institute 
 
 ALBERT incorporates two-parameter reduction techniques that lift the major obstacles in scaling pre-trained models.				
 (1) Factorized embedding parameterization 
@@ -131,7 +138,8 @@ ALBERT doesn’t use dropout. ALBERT v2 — This throws a light on the fact that
 
 # BART 
 Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
-Paper from Facebook 
+[Paper](https://arxiv.org/abs/1910.13461) from Facebook AI
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/BART.png?raw=true)
 
  a denoising autoencoder for pretraining sequence-to-sequence models. BART is trained by (1) corrupting text with an arbitrary noising function, and (2) learning a model to reconstruct the original text. It uses a standard Transformer-based neural machine translation architecture
 They evaluate a number of noising approaches, finding the best performance by both randomly shuffling the order of the original sentences and using a novel in-filling scheme, where arbitrary length spans of text.
@@ -148,8 +156,8 @@ Sentence Permutation A document is divided into sentences based on full stops, a
 Document Rotation A token is chosen uniformly at random, and the document is rotated so that it begins with that token.
 
 # AMBERT: A Multigrained BERT
-Paper by ByteDance 
-
+[Paper](https://arxiv.org/abs/2008.11869) by ByteDance 
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/AMBERT.png?raw=true)
 
 AMBERT proposes a simple twist to BERT: tokenize the input twice, once with a fine-grained tokenizer (subword or word level), and once with a coarse-grained tokenizer (phrase level).
 
