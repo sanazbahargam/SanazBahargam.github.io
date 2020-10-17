@@ -28,6 +28,8 @@ After “Attention all you need” BERT from Google and GPT from OpenAI were int
 
 
 # BERT
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
 [Paper](https://arxiv.org/abs/1810.04805) from Google
 
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/BERT.png?raw=true)
@@ -42,6 +44,7 @@ One of the disadvantages of BERT is that BERT fails to model the joint probabili
 
 # GPT
 Improving Language Understanding by Generative Pre-Training
+
 [Paper](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) from OpenAI
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/GPT.png?raw=true)
 
@@ -76,6 +79,7 @@ GPT3 has lower data compression compared to GPT2 so, with this amount of paramet
 
 # XLNet
 Generalized Autoregressive Pretraining for Language Understanding” from Carnegie Mellon and Google Research.
+
 [Paper](https://arxiv.org/abs/1906.08237) from
 
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/XLNet.png?raw=true)
@@ -97,6 +101,7 @@ Implementing the aforementioned techniques is complicated and perhaps this is wh
 
 # RoBERTa
 RoBERTa: A Robustly Optimized BERT Pretraining Approach
+
 [Paper](https://arxiv.org/abs/1907.11692)  from UW and Facebook AI
 
 
@@ -122,6 +127,7 @@ RoBERTa matches  XLNet models on the GLUE benchmark and sets a new state of the 
 
 # ALBERT
 ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
+
 [Paper](https://arxiv.org/abs/1909.11942) from Google Research and Toyota Technological Institute 
 
 ALBERT incorporates two-parameter reduction techniques that lift the major obstacles in scaling pre-trained models.				
@@ -138,6 +144,7 @@ ALBERT doesn’t use dropout. ALBERT v2 — This throws a light on the fact that
 
 # BART 
 Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension
+
 [Paper](https://arxiv.org/abs/1910.13461) from Facebook AI
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/BART.png?raw=true)
 
@@ -156,7 +163,9 @@ Sentence Permutation A document is divided into sentences based on full stops, a
 Document Rotation A token is chosen uniformly at random, and the document is rotated so that it begins with that token.
 
 # AMBERT: A Multigrained BERT
+
 [Paper](https://arxiv.org/abs/2008.11869) by ByteDance 
+
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/AMBERT.png?raw=true)
 
 AMBERT proposes a simple twist to BERT: tokenize the input twice, once with a fine-grained tokenizer (subword or word level), and once with a coarse-grained tokenizer (phrase level).
