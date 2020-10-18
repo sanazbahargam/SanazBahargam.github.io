@@ -1,5 +1,5 @@
 ---
-title: 'Covariate Shift and dataset shift'
+title: 'Covariate Shift and Dataset Shift'
 date: 2019-03-18
 permalink: /posts/2019/03/covaritaAndDatasetShift/
 tags:
