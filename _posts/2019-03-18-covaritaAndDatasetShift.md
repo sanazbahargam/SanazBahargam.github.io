@@ -18,8 +18,8 @@ when the joint distribution of inputs and the outputs (the target being predicte
 
 ### Causes of covariate and dataset shift: 
 The covariate and dataset shift happen due to two major factors 
-(1) sample selection bias 
-(2) non-stationary environments (when the predictions distribution changes due to different factors such as seasonality, new users, change of entities/products).
+- sample selection bias 
+- non-stationary environments (when the predictions distribution changes due to different factors such as seasonality, new users, change of entities/products).
 
 ### How to detect/treat covariate and dataser shift
 In the real-world, the models are retrained with fresh data on a regular basis to resolved this issue this process can be automated with (Airflow) [https://airflow.apache.org/]).
