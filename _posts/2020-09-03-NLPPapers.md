@@ -7,6 +7,9 @@ tags:
   - Transformers
 ---
 
+
+These are the most important transformer papers (in my opinion) that anyone working with Transformers should know. Also, there is a nice summary of [Efficient Transformers: A Survey](https://arxiv.org/abs/2009.06732) by folks at Google that I highly recommend as well. 
+
 [AMBERT: A Pre-trained Language Model with Multi-Grained Tokenization](https://arxiv.org/abs/2008.11869)
 
 Authors: Xinsong Zhang, Hang Li
