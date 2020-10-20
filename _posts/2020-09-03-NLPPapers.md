@@ -33,6 +33,35 @@ Facebook
 Year: June 2020
 
 
+
+[ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators.](https://arxiv.org/abs/2003.10555)
+
+Authors: Kevin Clark, Minh-Thang Luong, Quoc V. Le, Christopher D. Manning.
+
+Google and Stanford
+
+Year: March 2020
+
+
+
+[Generalization through Memorization: Nearest Neighbor Language Models](https://arxiv.org/abs/1911.00172)
+
+Urvashi Khandelwal, Omer Levy, Dan Jurafsky, Luke Zettlemoyer, Mike Lewis
+
+Facebook and Stanford [Presenation in ACL 2020, "Beyond BERT" by Mike Lewis](https://slideslive.com/38929793/beyond-bert)
+
+Year: Feb 2020
+
+
+
+[ConveRT: Efficient and Accurate Conversational Representations from Transformers](https://arxiv.org/abs/1911.03688)
+
+Authors: Matthew Henderson, Iñigo Casanueva, Nikola Mrkšić, Pei-Hao Su, Tsung-Hsien Wen, Ivan Vulić
+
+PolyAI 
+
+Year: Nov 2019
+
 [BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](https://arxiv.org/abs/1910.13461)
 
 Authors:Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, Luke Zettlemoyer
