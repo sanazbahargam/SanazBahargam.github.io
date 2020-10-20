@@ -15,6 +15,15 @@ ByteDance AI Lab
 
 Year: August 2020
 
+
+[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.](https://arxiv.org/pdf/1910.10683.pdf) T5
+
+Authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu
+
+Google
+
+Year: July 2020
+
 [Pre-training via Paraphrasing](https://arxiv.org/abs/2006.15020)
 
 Authors: Mike Lewis, Marjan Ghazvininejad, Gargi Ghosh, Armen Aghajanyan, Sida Wang, Luke Zettlemoyer
@@ -64,6 +73,16 @@ CMU, Google
 
 Year: May 2019
 
+
+
+[Cross-lingual Language Model Pretraining](https://arxiv.org/pdf/1901.07291.pdf)
+
+Authors:Guillaume Lample, Alexis Conneau
+
+Facebook
+
+year: January 2019
+
 [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
 
 Authors: Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever 
@@ -71,6 +90,15 @@ Authors: Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever
 OpenAI
 
 Year: June 2018
+
+
+[Deep contextualized word representations](https://arxiv.org/pdf/1802.05365.pdf) ELMo
+
+Auhtors: Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee and Luke Zettlemoyer
+
+Allen Institute for Artificial Intelligence and UW
+
+year: March 2018
 
 [Attention is all you need](https://arxiv.org/abs/1706.03762) 
 
