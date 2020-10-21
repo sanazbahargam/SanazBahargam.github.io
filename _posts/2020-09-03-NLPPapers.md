@@ -1,5 +1,5 @@
 ---
-title: 'NLP Papaers'
+title: 'NLP Papers'
 date: 2020-09-03
 permalink: /posts/2020/09/NLPPapers/
 tags:
