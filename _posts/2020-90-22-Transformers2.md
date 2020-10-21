@@ -61,6 +61,15 @@ that the prediction problem is more challenging than previously appreciated.
 [Paper](https://arxiv.org/abs/1910.10683) from Google
 ![pic](https://1.bp.blogspot.com/-o4oiOExxq1s/Xk26XPC3haI/AAAAAAAAFU8/NBlvOWB84L0PTYy9TzZBaLf6fwPGJTR0QCLcBGAsYHQ/s1600/image3.gif?raw=true)
 
+With T5, authors propose reframing all NLP tasks into a unified text-to-text-format where the input and output are always text strings, in contrast to BERT-style models that can only output either a class label or a span of the input. The text-to-text framework allows to use the same model, loss function, and hyperparameters on any NLP task, including machine translation, document summarization, question answering, and classification tasks (e.g., sentiment analysis). One can even apply T5 to regression tasks by training it to predict the string representation of a number instead of the number itself. 
+Fidnings:
+- model architectures, where they found that encoder-decoder models generally outperformed "decoder-only" language models;
+- pre-training objectives, where they confirmed that fill-in-the-blank-style denoising objectives (where the model is trained to recover missing words in the input) worked best and that the most important factor was the computational cost;
+- unlabeled datasets, where they showed that training on in-domain data can be beneficial but that pre-training on smaller datasets can lead to detrimental overfitting;
+- training strategies, where they found that multitask learning could be close to competitive with a pre-train-then-fine-tune approach but requires carefully choosing how often the model is trained on each task;
+- and scale, where they compare scaling up the model size, the training time, and the number of ensembled models to determine how to make the best use of fixed compute power.
+
+
 
 # AdapterHub: A Framework for Adapting Transformers
 [Paper](https://arxiv.org/pdf/2007.07779v1.pdf) from Technical University Darmstadt, New York University, CIFAR, University of Cambridge,DeepMind
