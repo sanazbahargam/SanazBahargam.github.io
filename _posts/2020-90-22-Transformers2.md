@@ -1,7 +1,7 @@
 ---
 title: 'Transformers 2'
-date: 2020-07-30
-permalink: /posts/2020/07/Transformers2/
+date: 2020-09-22
+permalink: /posts/2020/09/Transformers2/
 tags:
   - NLP
   - Transformers
@@ -32,6 +32,7 @@ A truly remarkable outcome is that MARGE can perform decent zero-shot machine tr
 [Paper](https://arxiv.org/abs/1911.03688) by PolyAI
 
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/ConveRT.png?raw=true)
+
 They used shared parameters, quantization and less number of layers, but instead used a very long sequence input (for conversation it’s needed) and reduced the number of parameters by order of magnitude. 
 
 
