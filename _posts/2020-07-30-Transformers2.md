@@ -30,13 +30,14 @@ A truly remarkable outcome is that MARGE can perform decent zero-shot machine tr
 
 # ConveRT: Efficient and Accurate Conversational Representations from Transformers
 [Paper](https://arxiv.org/abs/1911.03688) by PolyAI
-They used shared parameters, quantization and less number of layers, but instead used a very long sequence input (for conversation it’s needed) and reduced the number of parameters by order of magnitude. 
-![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/ConveRT.png?raw=true)
 
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/ConveRT.png?raw=true)
+They used shared parameters, quantization and less number of layers, but instead used a very long sequence input (for conversation it’s needed) and reduced the number of parameters by order of magnitude. 
 
 
 # Generalization through Memorization: Nearest Neighbor Language Models
 [Paper](https://arxiv.org/abs/1911.00172)  from Facebook AI and Stanford   
+
 [Presenation in ACL 2020, “Beyond BERT”](https://slideslive.com/38929793/beyond-bert) by Mike Lewis
 
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/GeneralizationMemorization.png?raw=true)
