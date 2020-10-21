@@ -15,7 +15,7 @@ tags:
 [Paper](https://arxiv.org/abs/2006.15020) from Facebook AI
 
 [Presenation in ACL 2020, “Beyond BERT”](https://slideslive.com/38929793/beyond-bert) by Mike Lewis
-
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/MARGE.png?raw=true)
 
 
 In this paper, authors tried grounding natural language into the reality of our world instead of MLM. The problem with next token predictions MLM is that they focus only on linguistic form, they learn the characteristics of coherent language without necessarily associating meaning to it. 
@@ -31,13 +31,15 @@ A truly remarkable outcome is that MARGE can perform decent zero-shot machine tr
 # ConveRT: Efficient and Accurate Conversational Representations from Transformers
 [Paper](https://arxiv.org/abs/1911.03688) by PolyAI
 They used shared parameters, quantization and less number of layers, but instead used a very long sequence input (for conversation it’s needed) and reduced the number of parameters by order of magnitude. 
-
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/ConveRT.png?raw=true)
 
 
 
 # Generalization through Memorization: Nearest Neighbor Language Models
 [Paper](https://arxiv.org/abs/1911.00172)  from Facebook AI and Stanford   
 [Presenation in ACL 2020, “Beyond BERT”](https://slideslive.com/38929793/beyond-bert) by Mike Lewis
+
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/GeneralizationMemorization.png?raw=true)
 
 The main contribution: Improvement for downstream tasks which need factuality like QA
 The paper introduces kNN-LM, an approach that extends a pre-trained LM by linearly interpolating its next
@@ -50,6 +52,8 @@ that the prediction problem is more challenging than previously appreciated.
 
 # AdapterHub: A Framework for Adapting Transformers
 [Paper](https://arxiv.org/pdf/2007.07779v1.pdf) from Technical University Darmstadt, New York University, CIFAR, University of Cambridge,DeepMind
+
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/ConveRT.png?raw=true)
 
 AdapterHub enables you to perform transfer learning of generalized pre-trained transformers such as BERT, RoBERTa, and XLM-R to downstream tasks such as question-answering, classification, etc. using adapters instead of fine-tuning. Adapters serve the same purpose as fine-tuning but do it by stitching in layers to the main pre-trained model, and updating the weights Φ of these new layers, whilst freezing the weights θ of the pre-trained model. As you might imagine, this makes adapters much more efficient, both in terms of time and storage, compared to fine-tuning. Adapters have also been shown to be able to match the performance of state-of-the-art fine-tuning methods!
 
