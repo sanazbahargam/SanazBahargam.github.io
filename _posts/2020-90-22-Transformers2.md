@@ -57,6 +57,11 @@ training data is used for learning the prefix representations and the kNN model,
 that the prediction problem is more challenging than previously appreciated.
 
 
+# Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer, T5
+[Paper](https://arxiv.org/abs/1910.10683) from Google
+![pic](https://1.bp.blogspot.com/-o4oiOExxq1s/Xk26XPC3haI/AAAAAAAAFU8/NBlvOWB84L0PTYy9TzZBaLf6fwPGJTR0QCLcBGAsYHQ/s1600/image3.gif?raw=true)
+
+
 # AdapterHub: A Framework for Adapting Transformers
 [Paper](https://arxiv.org/pdf/2007.07779v1.pdf) from Technical University Darmstadt, New York University, CIFAR, University of Cambridge,DeepMind
 
