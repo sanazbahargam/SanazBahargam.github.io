@@ -35,7 +35,7 @@ They used shared parameters, quantization and less number of layers, but instead
 
 
 
-#Generalization through Memorization: Nearest Neighbor Language Models
+# Generalization through Memorization: Nearest Neighbor Language Models
 [Paper](https://arxiv.org/abs/1911.00172)  from Facebook AI and Stanford   
 [Presenation in ACL 2020, “Beyond BERT”](https://slideslive.com/38929793/beyond-bert) by Mike Lewis
 
@@ -46,4 +46,11 @@ according to distance in the pre-trained embedding space and can be drawn from a
 explicitly, rather than implicitly in model parameters. It also improves performance when the same
 training data is used for learning the prefix representations and the kNN model, strongly suggesting
 that the prediction problem is more challenging than previously appreciated.
+
+
+# AdapterHub: A Framework for Adapting Transformers
+[Paper](https://arxiv.org/pdf/2007.07779v1.pdf) from Technical University Darmstadt, New York University, CIFAR, University of Cambridge,DeepMind
+
+AdapterHub enables you to perform transfer learning of generalized pre-trained transformers such as BERT, RoBERTa, and XLM-R to downstream tasks such as question-answering, classification, etc. using adapters instead of fine-tuning. Adapters serve the same purpose as fine-tuning but do it by stitching in layers to the main pre-trained model, and updating the weights Φ of these new layers, whilst freezing the weights θ of the pre-trained model. As you might imagine, this makes adapters much more efficient, both in terms of time and storage, compared to fine-tuning. Adapters have also been shown to be able to match the performance of state-of-the-art fine-tuning methods!
+
 
