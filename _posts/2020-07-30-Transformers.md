@@ -6,9 +6,12 @@ tags:
   - NLP
   - Transformers
   - BERT
+  - GPT
+  - XLNet
+  - RoBERTa
   - AMBERT
-  - ROBERTA
   - ALBERT
+
   
 ---
 Transformers: This post contains my notes throughout years on different transformers. These notes are very crude and not edited yet (more like my cheat sheets), but I thought to share it anyway. Please let me know if you have any comments or if you find any mistakes. 
