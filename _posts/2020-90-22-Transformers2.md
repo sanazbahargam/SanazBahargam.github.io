@@ -13,6 +13,7 @@ tags:
 ---
 This blog post is the continuation of my previous blog post, [Transformers](https://sanazbahargam.github.io/posts/2020/07/Transformers/). In my previous blog post, I explained original Transformer paper, BERT, GPT, XLNet, RoBERTa, ALBERT, BART, and AMBER. 
 In this blog post, I will explain MARGE, ConveRT, Generalization through Memorization, AdapterHub, and T5.
+Images and content used in this blogpost, otherwise mentioned, are all taken from the papers on each model.
 
 
 
