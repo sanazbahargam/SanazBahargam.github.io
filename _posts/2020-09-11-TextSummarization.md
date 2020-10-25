@@ -21,7 +21,7 @@ to get the most important sentences (basically centroids in the graph). The edge
 LexRank uses cosine similarity of TF-IDF vectors of sentences and TextRank uses the number of words two sentences have in common  normalized by sentences length.
 
 LexRank uses the score of sentences from the page rank algorithm as a feature in a larger system with other features such as sentence’s position, sentence length. 
-(source)[https://en.wikipedia.org/wiki/Automatic_summarization]  
+[source](https://en.wikipedia.org/wiki/Automatic_summarization)
 
 
 
