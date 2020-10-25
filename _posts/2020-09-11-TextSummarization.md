@@ -28,13 +28,13 @@ LexRank uses the score of sentences from the page rank algorithm as a feature in
 When training a model for summarization, one can use cross-entropy (similar to language modeling task) to train the model. 
 For offline evaluation one can use:
 - ROUGE metrics 
--- diadvantages:
-  -- not suitable of abtractive summariztion since it is based on n-gram overlaps)
-  -- biased toward shorter summarizes
+  - diadvantages:
+  - not suitable of abtractive summariztion since it is based on n-gram overlaps)
+  - biased toward shorter summarizes
 - ROUGE-WE (R-WE): instead of hard lexical matching of bigrams, R-WE uses soft matching based on the cosine similarity of word embeddings.
 - BERTScore: [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675)
  BERTSCORE computes a similarity score for each token in the candidate sentence with each token in the reference sentence. However, instead of exact matches, they compute token similarity using contextual embeddings.  BERTSCORE computes the similarity of two sentences as a sum of cosine similarities between their tokens’ embeddings.
-Advantages: BERTSCORE addresses two common pitfalls in n-gram-based metrics such as  BLEU, ROUGE, and METEOR. 
+  - Advantages: BERTSCORE addresses two common pitfalls in n-gram-based metrics such as  BLEU, ROUGE, and METEOR. 
 (1) First, such methods often fail to robustly match paraphrases.  This leads to performance underestimation when semantically-correct phrases are penalized because they differ from the surface form of the reference.
 Second, n-gram models fail to capture distant dependencies and penalize semantically-critical ordering changes. For example, given a small window of size two, BLEU will only mildly penalize swapping of cause and effect clauses (e.g. A because B instead of B because A), especially when the arguments A and B are long phrases.
 
