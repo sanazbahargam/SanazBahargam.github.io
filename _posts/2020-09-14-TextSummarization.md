@@ -1,6 +1,6 @@
 ---
 title: 'Text Summarization'
-date: 2020-04-28
+date: 2020-09-14
 permalink: /posts/2020/09/TextSummarization/
 tags:
   - NLP
@@ -34,13 +34,18 @@ ROUGE is the standard automatic evaluation measure for evaluating summarization 
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/ROUGEMetric.png?raw=true)
  
   - diadvantages:
-  - not suitable for abtractive summariztion since it is based on n-gram overlaps. 
+  - not suitable for abtractive summariztion since it is based on n-gram overlaps. It expects the generated summary to be idential to the reference summary and does not recognaize synonym concepts. It also doesn't capture subset coverage (it focues on complete set of n-gram overlap).
   - biased toward shorter summarizes
 - ROUGE-WE (R-WE): instead of hard lexical matching of bigrams, R-WE uses soft matching based on the cosine similarity of word embeddings.
 - ROUGE-G: [A Graph-theoretic Summary Evaluation for ROUGE](https://www.aclweb.org/anthology/D18-1085.pdf)
  combines lexical and semantic matching by applying graph analysis algorithms to the
 WordNet semantic network
-- ROUGE 2.0  leverages synonym dictionaries, such as WordNet, and considers all synonyms of matched words when computing token overlap. [ROUGE 2.0: Updated and Improved Measures for Evaluation of Summarization Tasks](https://arxiv.org/abs/1803.01937).
+- ROUGE 2.0  leverages synonym dictionaries, such as WordNet, and considers all synonyms of matched words when computing token overlap. [ROUGE 2.0: Updated and Improved Measures for Evaluation of Summarization Tasks](https://arxiv.org/abs/1803.01937). To address ROUGE's problems, authors propose the following metrics:
+  - ROUGE-{N|Topic|TopicUniq}+Synonyms - capture synonyms using a synonym
+dictionary (synonym dictionary customizable by application and domain)
+  - ROUGE-Topic - topic or subset coverage (topic customizable by POS occurrence)
+  - ROUGE-TopicUniq- unique topic or subset coverage (topic customizable by POS
+occurrence)
 - [Co-opNet: Cooperative Generator–Discriminator Networks for Abstractive Summarization with Narrative Flow](https://arxiv.org/abs/1907.01272)
 - METEOR: [An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) 
 - BERTScore: [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675)
