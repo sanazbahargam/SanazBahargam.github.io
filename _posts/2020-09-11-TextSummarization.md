@@ -12,8 +12,9 @@ Automatic summarization is the process of shortening a set of data computational
 relevant information within the original content. Text summarization finds the most informative sentences in a document. 
 
 Therea are two general approches to text summarziation:
-- extractive summariztion, where salient sentences/segments of text are identified as important segments and directly copied into the summary (similr to highlighting text with a marker). 
+- extractive summariztion, where salient spans of text are identified as important segments and directly copied into the summary (similr to highlighting text with a marker). 
 - abstractive summarizatio, where the the generated saummary is a paraphrased of the important part of the text and hence more similar to human generaed summaries 
+- Hybrid models, combines extractive and abstractive summarization and include two phases, content selection and parapharasing.
 
 Prior to the hype of deep learning, TextRank and LexRank were two popular methods for extractive sumariztion. TextRank was mainly used for single document
 and LexRank was mainly used for multi document summariztion. Both TextRank and LexRank create a graph of sentences and run the page rank algotihm 
