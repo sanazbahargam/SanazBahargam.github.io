@@ -12,8 +12,8 @@ Automatic summarization is the process of shortening a set of data computational
 relevant information within the original content. Text summarization finds the most informative sentences in a document. 
 
 Therea are two general approches to text summarziation:
-- extractive summariztion
-- abstractive summarizatio
+- extractive summariztion, where salient sentences/segments of text are identified as important segments and directly copied into the summary (similr to highlighting text with a marker). 
+- abstractive summarizatio, where the the generated saummary is a paraphrased of the important part of the text and hence more similar to human generaed summaries 
 
 Prior to the hype of deep learning, TextRank and LexRank were two popular methods for extractive sumariztion. TextRank was mainly used for single document
 and LexRank was mainly used for multi document summariztion. Both TextRank and LexRank create a graph of sentences and run the page rank algotihm 
@@ -25,13 +25,15 @@ LexRank uses the score of sentences from the page rank algorithm as a feature in
 
 
 # Evaluation:
-When training a model for summarization, one can use cross-entropy (similar to language modeling task) to train the model. 
+When training a model for summarization, one can use cross-entropy (similar to language modeling task) to train the model. The offline evaluation metrics arenpoorly correzlted with human judgement and ignores important features such as factual correctnes. 
 For offline evaluation one can use:
 - ROUGE metrics 
   - diadvantages:
-  - not suitable of abtractive summariztion since it is based on n-gram overlaps)
+  - not suitable for abtractive summariztion since it is based on n-gram overlaps
   - biased toward shorter summarizes
 - ROUGE-WE (R-WE): instead of hard lexical matching of bigrams, R-WE uses soft matching based on the cosine similarity of word embeddings.
+- [Co-opNet: Cooperative Generator–Discriminator Networks for Abstractive Summarization with Narrative Flow](https://arxiv.org/abs/1907.01272)
+- METEOR: [An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) 
 - BERTScore: [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675)
  BERTSCORE computes a similarity score for each token in the candidate sentence with each token in the reference sentence. However, instead of exact matches, they compute token similarity using contextual embeddings.  BERTSCORE computes the similarity of two sentences as a sum of cosine similarities between their tokens’ embeddings.
   - Advantages: BERTSCORE addresses two common pitfalls in n-gram-based metrics such as  BLEU, ROUGE, and METEOR. 
