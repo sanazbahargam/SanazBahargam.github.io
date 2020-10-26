@@ -27,7 +27,11 @@ LexRank uses the score of sentences from the page rank algorithm as a feature in
 # Evaluation:
 When training a model for summarization, one can use cross-entropy (similar to language modeling task) to train the model. The offline evaluation metrics arenpoorly correzlted with human judgement and ignores important features such as factual correctnes. 
 For offline evaluation one can use:
-- ROUGE metrics 
+- ROUGE metric, [ROUGE: A Package for Automatic Evaluation of Summaries](https://www.aclweb.org/anthology/W04-1013.pdf)
+ROUGE is the standard automatic evaluation measure for evaluating summarization tasks. 
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
   - diadvantages:
   - not suitable for abtractive summariztion since it is based on n-gram overlaps
   - biased toward shorter summarizes
