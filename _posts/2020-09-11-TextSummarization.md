@@ -48,7 +48,11 @@ WordNet semantic network
   - Advantages: BERTSCORE addresses two common pitfalls in n-gram-based metrics such as  BLEU, ROUGE, and METEOR. 
 (1) First, such methods often fail to robustly match paraphrases.  This leads to performance underestimation when semantically-correct phrases are penalized because they differ from the surface form of the reference.
 Second, n-gram models fail to capture distant dependencies and penalize semantically-critical ordering changes. For example, given a small window of size two, BLEU will only mildly penalize swapping of cause and effect clauses (e.g. A because B instead of B because A), especially when the arguments A and B are long phrases.
-
+- Human evaluators to evaluate
+  - relevance (selection of important content from the source)
+  - consistency (factual alignment between the summary and the source) 
+  - fluency (quality of individual sentences)
+  - coherence (collective quality of all sentences)
 
 Similarity (embedding reference summary, embedding generated summary)
 Human: grammar, punctuation, interesting, information quality, duplication, diversity, brevity
