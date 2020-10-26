@@ -11,6 +11,7 @@ tags:
 Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or 
 relevant information within the original content. Text summarization finds the most informative sentences in a document. 
 
+# Strategies of generating summaries 
 Therea are two general approches to text summarziation:
 - extractive summariztion, where salient spans of text are identified as important segments and directly copied into the summary (similr to highlighting text with a marker). 
 - abstractive summarizatio, where the the generated saummary is a paraphrased of the important part of the text and hence more similar to human generaed summaries 
@@ -36,7 +37,8 @@ ROUGE is the standard automatic evaluation measure for evaluating summarization 
   - diadvantages:
   - not suitable for abtractive summariztion since it is based on n-gram overlaps. It expects the generated summary to be idential to the reference summary and does not recognaize synonym concepts. It also doesn't capture subset coverage (it focues on complete set of n-gram overlap).
   - biased toward shorter summarizes
-- ROUGE-WE (R-WE): instead of hard lexical matching of bigrams, R-WE uses soft matching based on the cosine similarity of word embeddings.
+- ROUGE-WE (R-WE): [Better Summarization Evaluation with Word Embeddings for ROUGE](https://www.aclweb.org/anthology/D15-1222.pdf)
+instead of hard lexical matching of bigrams, R-WE uses soft matching based on the cosine similarity of word embeddings.
 - ROUGE-G: [A Graph-theoretic Summary Evaluation for ROUGE](https://www.aclweb.org/anthology/D18-1085.pdf)
  combines lexical and semantic matching by applying graph analysis algorithms to the
 WordNet semantic network
