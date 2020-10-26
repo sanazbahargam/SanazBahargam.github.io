@@ -32,6 +32,7 @@ For offline evaluation one can use:
   - not suitable for abtractive summariztion since it is based on n-gram overlaps
   - biased toward shorter summarizes
 - ROUGE-WE (R-WE): instead of hard lexical matching of bigrams, R-WE uses soft matching based on the cosine similarity of word embeddings.
+- ROUGE 2.0  leverages synonym dictionaries, such as WordNet, and considers all synonyms of matched words when computing token overlap. [ROUGE 2.0: Updated and Improved Measures for Evaluation of Summarization Tasks](https://arxiv.org/abs/1803.01937).
 - [Co-opNet: Cooperative Generator–Discriminator Networks for Abstractive Summarization with Narrative Flow](https://arxiv.org/abs/1907.01272)
 - METEOR: [An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) 
 - BERTScore: [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675)
