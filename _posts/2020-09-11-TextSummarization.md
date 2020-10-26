@@ -32,6 +32,11 @@ ROUGE is the standard automatic evaluation measure for evaluating summarization 
 ```math
 SE = \frac{\sigma}{\sqrt{n}}
 ```
+
+{% raw %}
+  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+ {% endraw %}
+ 
   - diadvantages:
   - not suitable for abtractive summariztion since it is based on n-gram overlaps
   - biased toward shorter summarizes
