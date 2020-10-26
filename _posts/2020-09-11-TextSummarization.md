@@ -31,8 +31,6 @@ For offline evaluation one can use:
 ROUGE is the standard automatic evaluation measure for evaluating summarization tasks. 
 
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/ROUGEMetric.png?raw=true)
-
-
  
   - diadvantages:
   - not suitable for abtractive summariztion since it is based on n-gram overlaps. 
