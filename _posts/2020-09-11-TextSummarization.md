@@ -29,11 +29,7 @@ When training a model for summarization, one can use cross-entropy (similar to l
 For offline evaluation one can use:
 - ROUGE metric, [ROUGE: A Package for Automatic Evaluation of Summaries](https://www.aclweb.org/anthology/W04-1013.pdf)
 ROUGE is the standard automatic evaluation measure for evaluating summarization tasks. 
-```math
-SE = \frac{\sigma}{\sqrt{n}}
-```
-
-$$\LaTeX \frac{\sigma}{\sqrt{n}} $$ 
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/ROUGEMetric.png?raw=true)
 
 
  
