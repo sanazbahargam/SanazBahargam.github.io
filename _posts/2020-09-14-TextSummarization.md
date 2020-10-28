@@ -37,9 +37,9 @@ ROUGE is the standard automatic evaluation measure for evaluating summarization 
 
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/ROUGEMetric.png?raw=true)
  
-- disadvantages:
-- not suitable for abstractive summarization since it is based on n-gram overlaps. It expects the generated summary to be identical to the reference summary and does not recognize synonym concepts. It also doesn't capture subset coverage (it focuses on the complete set of n-gram overlap).
-- biased toward shorter summarizes
+- Disadvantages:
+    - not suitable for abstractive summarization since it is based on n-gram overlaps. It expects the generated summary to be identical to the reference summary and does not recognize synonym concepts. It also doesn't capture subset coverage (it focuses on the complete set of n-gram overlap).
+    - biased toward shorter summarizes
 ### ROUGE-WE (R-WE)
 [Better Summarization Evaluation with Word Embeddings for ROUGE](https://www.aclweb.org/anthology/D15-1222.pdf)
 instead of hard lexical matching of bigrams, R-WE uses soft matching based on the cosine similarity of word embeddings.
@@ -85,14 +85,17 @@ tasks comparing to the existing evaluation metric
     - Second, n-gram models fail to capture distant dependencies and penalize semantically-critical ordering changes. For example, given a small window of size two, BLEU will only mildly penalize swapping of cause and effect clauses (e.g. A because B instead of B because A), especially when the arguments A and B are long phrases.
   
 ## Human Judgement, Learned Metrics
- - relevance (selection of important content from the source)
+ - Relevance (selection of important content from the source)
  - consistency (factual alignment between the summary and the source) 
- - fluency (quality of individual sentences)
- - coherence (collective quality of all sentences)
+ - Fluency (quality of individual sentences)
+ 
+ - Coherence (collective quality of all sentences)
+ 
  - Grammer
+ 
  - Information Quality
  - Duplication
- - Fiversity
+ - Diversity
  - Brevity
 
 
