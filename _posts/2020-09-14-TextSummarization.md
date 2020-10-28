@@ -31,6 +31,7 @@ LexRank uses the score of sentences from the page rank algorithm as a feature in
 When training a model for summarization, one can use cross-entropy (similar to language modeling task) to train the model. The offline evaluation metrics are poorly correlated with human judgment and ignores important features such as factual correctness. 
 The offline evaluation metrics can be categorized into the following groups.
 ## n-GRAM Matching Metrics
+
 ### ROUGE metric
 [ROUGE: A Package for Automatic Evaluation of Summaries](https://www.aclweb.org/anthology/W04-1013.pdf)
 ROUGE is the standard automatic evaluation measure for evaluating summarization tasks. 
@@ -40,21 +41,27 @@ ROUGE is the standard automatic evaluation measure for evaluating summarization 
 - Disadvantages:
     - not suitable for abstractive summarization since it is based on n-gram overlaps. It expects the generated summary to be identical to the reference summary and does not recognize synonym concepts. It also doesn't capture subset coverage (it focuses on the complete set of n-gram overlap).
     - biased toward shorter summarizes
+    
+    
 ### ROUGE-WE (R-WE)
 [Better Summarization Evaluation with Word Embeddings for ROUGE](https://www.aclweb.org/anthology/D15-1222.pdf)
 instead of hard lexical matching of bigrams, R-WE uses soft matching based on the cosine similarity of word embeddings.
+
 ### ROUGE-G
 [A Graph-theoretic Summary Evaluation for ROUGE](https://www.aclweb.org/anthology/D18-1085.pdf)
  combines lexical and semantic matching by applying graph analysis algorithms to the
 WordNet semantic network
+
 ### ROUGE 2.0  
 leverages synonym dictionaries, such as WordNet, and considers all synonyms of matched words when computing token overlap. [ROUGE 2.0: Updated and Improved Measures for Evaluation of Summarization Tasks](https://arxiv.org/abs/1803.01937). To address ROUGE's problems, the authors propose the following metrics:
- ### ROUGE-{N|Topic|TopicUniq}+Synonyms 
+
+### ROUGE-{N|Topic|TopicUniq}+Synonyms 
  It captures synonyms using a synonym
 dictionary (synonym dictionary customizable by application and domain)
 - ROUGE-Topic - topic or subset coverage (topic customizable by POS occurrence)
 - ROUGE-TopicUniq- unique topic or subset coverage (topic customizable by POS
 occurrence)
+
 ### METEOR 
 [An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) 
 based on a generalized concept of unigram matching between the machine produced translation and human-produced
@@ -64,6 +71,7 @@ been found, METEOR computes a score for this matching using a combination of uni
 to directly capture how well-ordered the matched words in the machine translation are in relation to the reference.
 
 ## Embedding Based Metrics
+
 ### Distributional Semantics Reward (DSR) 
 [Deep Reinforcement Learning with Distributional Semantic Rewards for Abstractive Summarization](https://arxiv.org/abs/1909.00141)
 Given that contextualized word representations (such as ELMO, BERT, GPT) have shown that they have a powerful capacity of reflecting distributional semantic, the authors propose to use the distributional semantic reward to boost the reinforcement learning-based abstractive summarization system.
