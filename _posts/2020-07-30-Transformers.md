@@ -40,7 +40,7 @@ BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/BERT.png?raw=true)
 
-BERT is based on subword token encoding and multi-layer transformer architecture. The transformer blocks are the same as the original transformer blocks introduced in “Attention is all you need” paper.
+BERT is based on subword token encoding and multi-layer transformer architecture. The transformer blocks are the same as the original transformer blocks introduced in “Attention is all you need” paper, however BERT only uses the Encoder part of the transformer architecture (and this is why it is not suitable for text generation tasks).
 
 BERT uses a huge corpus of data for pre-training the model on a self-supervised task, masked language modeling. They mask tokens in the text and the decoder should predict the masked tokens. BERT masks 15% of the tokens. From the 15% selected tokens, 80% of them are actually being masked, 10% replaced by a random token, and 10% unchanged and the model is expected to predict all of these tokens (and the loss of all predictions will be backpropagated). 
 See my [colab notebook](https://colab.research.google.com/drive/1HDDgSVEJgAom4cdgxtrPdFmMkMYXckqi) for the code of masking. 
