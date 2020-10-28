@@ -88,14 +88,11 @@ tasks comparing to the existing evaluation metric
  - Relevance (selection of important content from the source)
  - consistency (factual alignment between the summary and the source) 
  - Fluency (quality of individual sentences)
- 
  - Coherence (collective quality of all sentences)
- 
- - Grammer
- 
+ - Grammer
  - Information Quality
- - Duplication
- - Diversity
+ - Duplication
+ - Diversity
  - Brevity
 
 
