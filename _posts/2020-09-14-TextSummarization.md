@@ -30,7 +30,8 @@ LexRank uses the score of sentences from the page rank algorithm as a feature in
 When training a model for summarization, one can use cross-entropy (similar to language modeling task) to train the model. The offline evaluation metrics arenpoorly correzlted with human judgement and ignores important features such as factual correctnes. 
 The offline evaluation metrics can be categorized into the following groups.
 ## n-GRAM Matching Metrics
-- ROUGE metric, [ROUGE: A Package for Automatic Evaluation of Summaries](https://www.aclweb.org/anthology/W04-1013.pdf)
+### ROUGE metric
+[ROUGE: A Package for Automatic Evaluation of Summaries](https://www.aclweb.org/anthology/W04-1013.pdf)
 ROUGE is the standard automatic evaluation measure for evaluating summarization tasks. 
 
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/ROUGEMetric.png?raw=true)
@@ -38,18 +39,22 @@ ROUGE is the standard automatic evaluation measure for evaluating summarization 
   - diadvantages:
   - not suitable for abtractive summariztion since it is based on n-gram overlaps. It expects the generated summary to be idential to the reference summary and does not recognaize synonym concepts. It also doesn't capture subset coverage (it focues on complete set of n-gram overlap).
   - biased toward shorter summarizes
-- ROUGE-WE (R-WE): [Better Summarization Evaluation with Word Embeddings for ROUGE](https://www.aclweb.org/anthology/D15-1222.pdf)
+### ROUGE-WE (R-WE)
+[Better Summarization Evaluation with Word Embeddings for ROUGE](https://www.aclweb.org/anthology/D15-1222.pdf)
 instead of hard lexical matching of bigrams, R-WE uses soft matching based on the cosine similarity of word embeddings.
-- ROUGE-G: [A Graph-theoretic Summary Evaluation for ROUGE](https://www.aclweb.org/anthology/D18-1085.pdf)
+### ROUGE-G
+[A Graph-theoretic Summary Evaluation for ROUGE](https://www.aclweb.org/anthology/D18-1085.pdf)
  combines lexical and semantic matching by applying graph analysis algorithms to the
 WordNet semantic network
-- ROUGE 2.0  leverages synonym dictionaries, such as WordNet, and considers all synonyms of matched words when computing token overlap. [ROUGE 2.0: Updated and Improved Measures for Evaluation of Summarization Tasks](https://arxiv.org/abs/1803.01937). To address ROUGE's problems, authors propose the following metrics:
-  - ROUGE-{N|Topic|TopicUniq}+Synonyms - capture synonyms using a synonym
+### ROUGE 2.0  
+leverages synonym dictionaries, such as WordNet, and considers all synonyms of matched words when computing token overlap. [ROUGE 2.0: Updated and Improved Measures for Evaluation of Summarization Tasks](https://arxiv.org/abs/1803.01937). To address ROUGE's problems, authors propose the following metrics:
+ ### ROUGE-{N|Topic|TopicUniq}+Synonyms 
+ capture synonyms using a synonym
 dictionary (synonym dictionary customizable by application and domain)
   - ROUGE-Topic - topic or subset coverage (topic customizable by POS occurrence)
   - ROUGE-TopicUniq- unique topic or subset coverage (topic customizable by POS
 occurrence)
-- METEOR: [An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) 
+### METEOR: [An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) 
 
 ## Embedding Based Metrics
 - distributional semantics reward
