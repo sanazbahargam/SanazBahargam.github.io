@@ -41,8 +41,7 @@ ROUGE is the standard automatic evaluation measure for evaluating summarization 
 - Disadvantages:
     - not suitable for abstractive summarization since it is based on n-gram overlaps. It expects the generated summary to be identical to the reference summary and does not recognize synonym concepts. It also doesn't capture subset coverage (it focuses on the complete set of n-gram overlap).
     - biased toward shorter summarizes
-    
-    
+
 ### ROUGE-WE (R-WE)
 [Better Summarization Evaluation with Word Embeddings for ROUGE](https://www.aclweb.org/anthology/D15-1222.pdf)
 instead of hard lexical matching of bigrams, R-WE uses soft matching based on the cosine similarity of word embeddings.
@@ -91,7 +90,7 @@ tasks comparing to the existing evaluation metric
 - Advantages: BERTSCORE addresses two common pitfalls in n-gram-based metrics such as  BLEU, ROUGE, and METEOR. 
     - First, such methods often fail to robustly match paraphrases.  This leads to performance underestimation when semantically-correct phrases are penalized because they differ from the surface form of the reference.
     - Second, n-gram models fail to capture distant dependencies and penalize semantically-critical ordering changes. For example, given a small window of size two, BLEU will only mildly penalize swapping of cause and effect clauses (e.g. A because B instead of B because A), especially when the arguments A and B are long phrases.
-  
+
 ## Human Judgement, Learned Metrics
  - Relevance (selection of important content from the source)
  - consistency (factual alignment between the summary and the source) 
