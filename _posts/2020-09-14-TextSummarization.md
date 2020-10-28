@@ -52,8 +52,8 @@ leverages synonym dictionaries, such as WordNet, and considers all synonyms of m
  ### ROUGE-{N|Topic|TopicUniq}+Synonyms 
  It captures synonyms using a synonym
 dictionary (synonym dictionary customizable by application and domain)
-  - ROUGE-Topic - topic or subset coverage (topic customizable by POS occurrence)
-  - ROUGE-TopicUniq- unique topic or subset coverage (topic customizable by POS
+- ROUGE-Topic - topic or subset coverage (topic customizable by POS occurrence)
+- ROUGE-TopicUniq- unique topic or subset coverage (topic customizable by POS
 occurrence)
 ### METEOR 
 [An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) 
@@ -67,7 +67,7 @@ to directly capture how well-ordered the matched words in the machine translatio
 ### Distributional Semantics Reward (DSR) 
 [Deep Reinforcement Learning with Distributional Semantic Rewards for Abstractive Summarization](https://arxiv.org/abs/1909.00141)
 Given that contextualized word representations (such as ELMO, BERT, GPT) have shown that they have a powerful capacity of reflecting distributional semantic, the authors propose to use the distributional semantic reward to boost the reinforcement learning-based abstractive summarization system.
-- Advantages: 
+ - Advantages: 
   - DSR does not rely on cross-entropy loss (XENT) to produce readable phrases. Thus, no exposure bias is introduced.
   - DSR improves generated tokens’ diversity and fluency while avoiding unnecessary repetitions.
 
@@ -80,7 +80,7 @@ by using pre-trained BERT contextualized embeddings to compute the similarity be
 tasks comparing to the existing evaluation metric
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/BERTScore.png?raw=true)
  
-  - Advantages: BERTSCORE addresses two common pitfalls in n-gram-based metrics such as  BLEU, ROUGE, and METEOR. 
+- Advantages: BERTSCORE addresses two common pitfalls in n-gram-based metrics such as  BLEU, ROUGE, and METEOR. 
   - First, such methods often fail to robustly match paraphrases.  This leads to performance underestimation when semantically-correct phrases are penalized because they differ from the surface form of the reference.
   - Second, n-gram models fail to capture distant dependencies and penalize semantically-critical ordering changes. For example, given a small window of size two, BLEU will only mildly penalize swapping of cause and effect clauses (e.g. A because B instead of B because A), especially when the arguments A and B are long phrases.
   
