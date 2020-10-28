@@ -1,3 +1,4 @@
+
 ---
 title: 'Text Summarization'
 date: 2020-09-14
@@ -6,6 +7,15 @@ tags:
   - NLP
   - Text Summarization
   - Text
+---
+
+---
+title: 'NLP Papers'
+date: 2020-09-03
+permalink: /posts/2020/09/NLPPapers/
+tags:
+  - NLP
+  - Transformers
 ---
 
 Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content. Text summarization finds the most informative sentences in a document. 
