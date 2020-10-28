@@ -28,7 +28,8 @@ LexRank uses the score of sentences from the page rank algorithm as a feature in
 
 # Evaluation:
 When training a model for summarization, one can use cross-entropy (similar to language modeling task) to train the model. The offline evaluation metrics arenpoorly correzlted with human judgement and ignores important features such as factual correctnes. 
-For offline evaluation one can use:
+The offline evaluation metrics can be categorized into the following groups.
+## n-GRAM Matching Metrics
 - ROUGE metric, [ROUGE: A Package for Automatic Evaluation of Summaries](https://www.aclweb.org/anthology/W04-1013.pdf)
 ROUGE is the standard automatic evaluation measure for evaluating summarization tasks. 
 
@@ -48,14 +49,28 @@ dictionary (synonym dictionary customizable by application and domain)
   - ROUGE-Topic - topic or subset coverage (topic customizable by POS occurrence)
   - ROUGE-TopicUniq- unique topic or subset coverage (topic customizable by POS
 occurrence)
-- [Co-opNet: Cooperative Generator–Discriminator Networks for Abstractive Summarization with Narrative Flow](https://arxiv.org/abs/1907.01272)
 - METEOR: [An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) 
+
+## Embedding Based Metrics
+- distributional semantics reward
+(DSR) [Deep Reinforcement Learning with Distributional Semantic Rewards for Abstractive Summarization](https://arxiv.org/abs/1909.00141)
+Given that contextualized word representations (such as ELMO, BERT, GPT) have shown that they have a powerful capacity of reflecting distributional semantic, the authors propose to use the distributional semantic reward to boost the reinforcement learning based abstractive summarization system.
+- Advantages: 
+  - DSR does not rely on crossentropy loss (XENT) to produce readable phrases. Thus, no exposure bias is introduced.
+  - DSR improves generated tokens’ diversity and fluency while avoiding unnecessary repetitions.
+- [Co-opNet: Cooperative Generator–Discriminator Networks for Abstractive Summarization with Narrative Flow](https://arxiv.org/abs/1907.01272)
+
 - BERTScore: [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675)
- BERTSCORE computes a similarity score for each token in the candidate sentence with each token in the reference sentence. However, instead of exact matches, they compute token similarity using contextual embeddings.  BERTSCORE computes the similarity of two sentences as a sum of cosine similarities between their tokens’ embeddings.
+ BERTSCORE computes a similarity score for each token in the candidate sentence with each token in the reference sentence. However, instead of exact matches, they compute token similarity using contextual embeddings. In another word,  BERTSCORE focuses on sentence-level generation evaluation
+by using pre-trained BERT contextualized embeddings to compute the similarity between two sentences as a weighted aggregation of cosine similarities between their tokens. BERTScore  has a higher correlation with human evaluation on text generation
+tasks comparing to existing evaluation metric
+![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/BERTScore.png?raw=true)
+ 
   - Advantages: BERTSCORE addresses two common pitfalls in n-gram-based metrics such as  BLEU, ROUGE, and METEOR. 
-(1) First, such methods often fail to robustly match paraphrases.  This leads to performance underestimation when semantically-correct phrases are penalized because they differ from the surface form of the reference.
-Second, n-gram models fail to capture distant dependencies and penalize semantically-critical ordering changes. For example, given a small window of size two, BLEU will only mildly penalize swapping of cause and effect clauses (e.g. A because B instead of B because A), especially when the arguments A and B are long phrases.
-- Human evaluators to evaluate
+  - First, such methods often fail to robustly match paraphrases.  This leads to performance underestimation when semantically-correct phrases are penalized because they differ from the surface form of the reference.
+  - Second, n-gram models fail to capture distant dependencies and penalize semantically-critical ordering changes. For example, given a small window of size two, BLEU will only mildly penalize swapping of cause and effect clauses (e.g. A because B instead of B because A), especially when the arguments A and B are long phrases.
+  
+## Human Evaluator based metrics
   - relevance (selection of important content from the source)
   - consistency (factual alignment between the summary and the source) 
   - fluency (quality of individual sentences)
