@@ -68,8 +68,8 @@ to directly capture how well-ordered the matched words in the machine translatio
 [Deep Reinforcement Learning with Distributional Semantic Rewards for Abstractive Summarization](https://arxiv.org/abs/1909.00141)
 Given that contextualized word representations (such as ELMO, BERT, GPT) have shown that they have a powerful capacity of reflecting distributional semantic, the authors propose to use the distributional semantic reward to boost the reinforcement learning-based abstractive summarization system.
 - Advantages: 
-  - DSR does not rely on cross-entropy loss (XENT) to produce readable phrases. Thus, no exposure bias is introduced.
-  - DSR improves generated tokens’ diversity and fluency while avoiding unnecessary repetitions.
+    - DSR does not rely on cross-entropy loss (XENT) to produce readable phrases. Thus, no exposure bias is introduced.
+    - DSR improves generated tokens’ diversity and fluency while avoiding unnecessary repetitions.
 
 <!--###  [Co-opNet: Cooperative Generator–Discriminator Networks for Abstractive Summarization with Narrative Flow](https://arxiv.org/abs/1907.01272) -->
 
@@ -85,15 +85,15 @@ tasks comparing to the existing evaluation metric
     - Second, n-gram models fail to capture distant dependencies and penalize semantically-critical ordering changes. For example, given a small window of size two, BLEU will only mildly penalize swapping of cause and effect clauses (e.g. A because B instead of B because A), especially when the arguments A and B are long phrases.
   
 ## Human Judgement, Learned Metrics
-  - relevance (selection of important content from the source)
-  - consistency (factual alignment between the summary and the source) 
-  - fluency (quality of individual sentences)
-  - coherence (collective quality of all sentences)
-  - Grammer
-  - Information Quality
-  - Duplication
-  - Fiversity
-  - Brevity
+ - relevance (selection of important content from the source)
+ - consistency (factual alignment between the summary and the source) 
+ - fluency (quality of individual sentences)
+ - coherence (collective quality of all sentences)
+ - Grammer
+ - Information Quality
+ - Duplication
+ - Fiversity
+ - Brevity
 
 
 
