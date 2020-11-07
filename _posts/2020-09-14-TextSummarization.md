@@ -106,4 +106,25 @@ tasks comparing to the existing evaluation metric
 
 <!-- When training we can use a combination of supervised learning and RL to directly optimize for brevity, duplication, diversity, etc-->
 
+# Models
+
+## Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer, T5
+[Paper](https://arxiv.org/abs/1910.10683) from Google
+![pic](https://1.bp.blogspot.com/-o4oiOExxq1s/Xk26XPC3haI/AAAAAAAAFU8/NBlvOWB84L0PTYy9TzZBaLf6fwPGJTR0QCLcBGAsYHQ/s1600/image3.gif?raw=true)
+
+With T5, authors propose reframing all NLP tasks into a unified text-to-text-format where the input and output are always text strings, in contrast to BERT-style models that can only output either a class label or a span of the input. The text-to-text framework allows to use the same model, loss function, and hyperparameters on any NLP task, including machine translation, document summarization, question answering, and classification tasks (e.g., sentiment analysis). One can even apply T5 to regression tasks by training it to predict the string representation of a number instead of the number itself. 
+Fidnings:
+- model architectures, where they found that encoder-decoder models generally outperformed "decoder-only" language models;
+- pre-training objectives, where they confirmed that fill-in-the-blank-style denoising objectives (where the model is trained to recover missing words in the input) worked best and that the most important factor was the computational cost;
+- unlabeled datasets, where they showed that training on in-domain data can be beneficial but that pre-training on smaller datasets can lead to detrimental overfitting;
+- training strategies, where they found that multitask learning could be close to competitive with a pre-train-then-fine-tune approach but requires carefully choosing how often the model is trained on each task;
+- and scale, where they compare scaling up the model size, the training time, and the number of ensembled models to determine how to make the best use of fixed compute power.
+
+## PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization 
+[Paper](https://arxiv.org/abs/1912.08777) [source](https://ai.googleblog.com/2020/06/pegasus-state-of-art-model-for.html)
+![pic](https://1.bp.blogspot.com/-TSor4o51jGI/Xt50lkj6blI/AAAAAAAAGDs/TrDe9jv13WEwk9NQNebQL63jtY8n6JFGwCLcBGAsYHQ/s1600/image1.gif)
+
+The authors designed a pre-training self-supervised objective (called gap-sentence generation) for Transformer encoder-decoder models to improve fine-tuning performance on abstractive summarization. The hypothesis is that he closer the pre-training self-supervised objective is to the final down-stream task, the better the fine-tuning performance. In PEGASUS pre-training, several whole sentences are removed from documents and the model is tasked with recovering them. An example input for pre-training is a document with missing sentences, while the output consists of the missing sentences concatenated together. This is an incredibly difficult task that may seem impossible, even for people, and we don’t expect the model to solve it perfectly. However, such a challenging task encourages the model to learn about language and general facts about the world, as well as how to distill information taken from throughout a document in order to generate output that closely resembles the fine-tuning summarization task. The advantage of this self-supervision is that you can create as many examples as there are documents, without any human annotation, which is often the bottleneck in purely supervised systems. The authors found out that choosing “important” sentences to mask worked best, making the output of self-supervised examples even more similar to a summary. They automatically identified these sentences by finding those that were most similar to the rest of the document according to a metric called ROUGE. 
+
+
 
