@@ -17,6 +17,20 @@ tags:
 Transformers: This post contains my notes throughout years on different transformers. These notes are very crude and not edited yet (more like my cheat sheets), but I thought to share it anyway. Please let me know if you have any comments or if you find any mistakes. 
 Images used in this blogpost, otherwise mentioned, are all taken from the papers on each model.
 
+Table of Contents
+=================
+
+   * [Attention is all you need](#attention-is-all-you-need)
+   * [BERT](#bert)
+   * [GPT](#gpt)
+         * [GPT2 vs GPT3 Data compression](#gpt2-vs-gpt3-data-compression)
+   * [XLNet](#xlnet)
+   * [RoBERTa](#roberta)
+   * [ALBERT](#albert)
+   * [BART](#bart)
+   * [AMBERT: A Multigrained BERT](#ambert-a-multigrained-bert)
+   
+
 # Attention is all you need
 [Paper](https://arxiv.org/abs/1706.03762) from Google
 
