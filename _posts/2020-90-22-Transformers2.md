@@ -15,6 +15,14 @@ This blog post is the continuation of my previous blog post, [Transformers](http
 In this blog post, I will explain MARGE, ConveRT, Generalization through Memorization, AdapterHub, and T5.
 Images and content used in this blogpost, otherwise mentioned, are all taken from the papers on each model.
 
+Table of Contents
+=================
+
+   * [Pre-training via Paraphrasing - MARGE (Multilingual Autoencoder that Retrieves and Generates](#pre-training-via-paraphrasing---marge-multilingual-autoencoder-that-retrieves-and-generates)
+   * [ConveRT: Efficient and Accurate Conversational Representations from Transformers](#convert-efficient-and-accurate-conversational-representations-from-transformers)
+   * [Generalization through Memorization: Nearest Neighbor Language Models](#generalization-through-memorization-nearest-neighbor-language-models)
+   * [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer, T5](#exploring-the-limits-of-transfer-learning-with-a-unified-text-to-text-transformer-t5)
+   * [AdapterHub: A Framework for Adapting Transformers](#adapterhub-a-framework-for-adapting-transformers)
 
 
 # Pre-training via Paraphrasing - MARGE (Multilingual Autoencoder that Retrieves and Generates
