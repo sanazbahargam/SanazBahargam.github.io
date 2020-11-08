@@ -23,7 +23,7 @@ Table of Contents
    * [Attention is all you need](#attention-is-all-you-need)
    * [BERT](#bert)
    * [GPT](#gpt)
-         * [GPT2 vs GPT3 Data compression](#gpt2-vs-gpt3-data-compression)
+     * [GPT2 vs GPT3 Data compression](#gpt2-vs-gpt3-data-compression)
    * [XLNet](#xlnet)
    * [RoBERTa](#roberta)
    * [ALBERT](#albert)
