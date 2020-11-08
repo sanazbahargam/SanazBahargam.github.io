@@ -11,6 +11,26 @@ tags:
   - DSR
 ---
 
+Table of Contents
+=================
+
+   * [Strategies for generating summaries](#strategies-for-generating-summaries)
+   * [Evaluation:](#evaluation)
+      * [n-GRAM Matching Metrics](#n-gram-matching-metrics)
+         * [ROUGE metric](#rouge-metric)
+         * [ROUGE-WE (R-WE)](#rouge-we-r-we)
+         * [ROUGE-G](#rouge-g)
+         * [ROUGE 2.0  ](#rouge-20-)
+         * [ROUGE-{N|Topic|TopicUniq} Synonyms](#rouge-ntopictopicuniqsynonyms)
+         * [METEOR](#meteor)
+      * [Embedding Based Metrics](#embedding-based-metrics)
+         * [Distributional Semantics Reward (DSR)](#distributional-semantics-reward-dsr)
+         * [BERTScore](#bertscore)
+      * [Human Judgement, Learned Metrics](#human-judgement-learned-metrics)
+   * [Models](#models)
+      * [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer, T5](#exploring-the-limits-of-transfer-learning-with-a-unified-text-to-text-transformer-t5)
+      * [PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization](#pegasus-pre-training-with-extracted-gap-sentences-for-abstractive-summarization)
+
 Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content. Text summarization finds the most informative sentences in a document. 
 
 # Strategies for generating summaries 
