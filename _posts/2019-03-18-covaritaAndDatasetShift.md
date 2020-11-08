@@ -11,10 +11,11 @@ tags:
 Table of Contents
 =================
 
-      * [Covariate shift:](#covariate-shift)
-      * [Dataset shift:](#dataset-shift)
-         * [Causes of covariate and dataset shift:](#causes-of-covariate-and-dataset-shift)
-         * [How to detect/treat covariate and dataser shift](#how-to-detecttreat-covariate-and-dataser-shift)
+
+   * [Covariate shift:](#covariate-shift)
+   * [Dataset shift:](#dataset-shift)
+       * [Causes of covariate and dataset shift:](#causes-of-covariate-and-dataset-shift)
+       * [How to detect/treat covariate and dataser shift](#how-to-detecttreat-covariate-and-dataser-shift)
          
          
 If you have productionized a new machine learning model, most probably you have faced the situation after a while the performance of your model has degraded. Let’s say train a model with 90% precision and you are happy with it. You ship the model into production and check the model performance over time. In a month, you see that the model precision has been decreasing over time and has reached 70% precision. Now you may wonder why this is happening. The chances are you the distribution of new data in production is significantly different than the distribution of the data you used for training. This phenomenon is known as the covariate shift or dataset shift.
