@@ -21,7 +21,7 @@ Table of Contents
          * [ROUGE-WE (R-WE)](#rouge-we-r-we)
          * [ROUGE-G](#rouge-g)
          * [ROUGE 2.0  ](#rouge-20-)
-         * [ROUGE-\{N|Topic|TopicUniq\} Synonyms](#rouge-ntopictopicuniqsynonyms)
+         * [ROUGE- N|Topic|TopicUniq Synonyms](#rouge-ntopictopicuniqsynonyms)
          * [METEOR](#meteor)
       * [Embedding Based Metrics](#embedding-based-metrics)
          * [Distributional Semantics Reward (DSR)](#distributional-semantics-reward-dsr)
