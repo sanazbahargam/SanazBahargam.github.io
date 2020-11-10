@@ -14,6 +14,8 @@ During my Ph.D., I worked with Professor [Evimaria Terzi](https://www.cs.bu.edu/
 Besides work, I often play volley with friends, I enjoy [hiking](https://photos.app.goo.gl/qB9zyZesNQTKm1GXA) and [photography](https://photos.app.goo.gl/GSWXzNiYngkzVQTu7). 
 
 
+My Erdős number is 1. I have a [publication](https://sanazbahargam.github.io/publication/EDM2015) with Erdős (not Paul, but Dora) :) For real my [Paul] Erdős number is 4.
+
 Recent News
 ======
 * April 13, 2019. Our paper  [The Guided TeamPartitioning Problem: Definition, Complexity, and Algorithm](https://sanazbahargam.github.io/publication/EDM2019) was accepted at 12 International Conference on Educational Data Mining (EDM).
