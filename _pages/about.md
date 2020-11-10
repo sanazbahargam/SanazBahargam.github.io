@@ -4,8 +4,8 @@ title: "About Me, Sanaz Bahargam"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+ - /about/
+ - /about.html
 ---
 
 My name is Sanaz Bahargam. I completed a Ph.D. degree at the [Computer Science](http://www.cs.bu.edu/) Department of [Boston University](http://www.bu.edu/) in June 2017 and I am currently at Twitter, working on NLP and Learning to Rank problems. My research interests are in the areas of Natural Language Processing, Applied Machine Learning, Deep Learning, and Algorithmic Data Mining.
