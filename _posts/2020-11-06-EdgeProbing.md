@@ -41,8 +41,12 @@ first, whereas recognizing coreferences or relations are more difficult tasks an
 
 
 References
+  - [A Structural Probe for Finding Syntax in Word Representations](https://nlp.stanford.edu/pubs/hewitt2019structural.pdf)
+  - [BERT Rediscovers the Classical NLP Pipeline](https://arxiv.org/pdf/1905.05950.pdf)
+  - [Deconstructing BERT](https://towardsdatascience.com/deconstructing-bert-reveals-clues-to-its-state-of-art-performance-in-nlp-tasks-76a7e828c0f1)
   - [WHAT DO YOU LEARN FROM CONTEXT? PROBING FOR SENTENCE STRUCTURE IN CONTEXTUALIZED WORD REPRESENTATIONS](https://arxiv.org/pdf/1905.06316.pdf)
   - [How Does BERT Answer Questions? A Layer-Wise Analysis of Transformer Representations](https://arxiv.org/pdf/1909.04925v1.pdf)
-  - [A Structural Probe for Finding Syntax in Word Representations](https://nlp.stanford.edu/pubs/hewitt2019structural.pdf)
   - [Finding Syntax with Structural Probes](https://nlp.stanford.edu//~johnhew//structural-probe.html?utm_source=quora&utm_medium=referral#the-structural-probe)
+  - [Probing What Different NLP Tasks Teach Machines about Function Word Comprehension](https://www.aclweb.org/anthology/S19-1026.pdf)
+  - [TOWARD UNDERSTANDING TRANSFORMER BASED SELF SUPERVISED MODEL](https://shanzhenren.github.io/csci-699-replnlp-2019fall/lectures/W5-L2-Toward_Understanding_Transformer_Based%20Self_Supervised_Model.pdf)
 
