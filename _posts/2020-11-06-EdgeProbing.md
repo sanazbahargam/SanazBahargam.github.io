@@ -7,6 +7,9 @@ tags:
   - Transformers
 ---
 
+In the past couple of years, Transformers has acheived state of art results in a variety of natural language tasks. In order to better understand Transformers and what they are learning in practice, researchers have done layer-wise analysis of BERT’s hidden states to understand what BERT is learning in each layer.  They examine the hidden states between encoder layers directly and use those hidden states in a linear layer + softmax to predict what kind of information in encoded in each hidden state. 
+In this post, I'm going to explain the main idea behind probing. 
+
 
 
 References
