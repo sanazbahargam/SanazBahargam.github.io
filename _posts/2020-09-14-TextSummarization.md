@@ -11,6 +11,8 @@ tags:
   - DSR
 ---
 
+Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content. Text summarization finds the most informative sentences in a document. 
+
 Table of Contents
 =================
 
@@ -31,7 +33,7 @@ Table of Contents
       * [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer, T5](#exploring-the-limits-of-transfer-learning-with-a-unified-text-to-text-transformer-t5)
       * [PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization](#pegasus-pre-training-with-extracted-gap-sentences-for-abstractive-summarization)
 
-Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content. Text summarization finds the most informative sentences in a document. 
+
 
 # Strategies for generating summaries 
 Therea are two general approches to text summarziation:
