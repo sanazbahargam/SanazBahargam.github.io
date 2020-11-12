@@ -17,7 +17,7 @@ In the figure below, you can see the  overview of the BERT architecture and the 
 a set of probing tasks to examine the encoded information. 
 
 ![pic](https://github.com/sanazbahargam/SanazBahargam.github.io/blob/master/images/posts/EdgeProbing/HowDoesBERTAnswerQuestions.png?raw=true)
-<span style="color: grey"> Picture taken from the [paper](https://arxiv.org/pdf/1909.04925v1.pdf) </span>
+<span style="color: grey"> Picture taken from the paper, How Does BERT Answer Questions?   </span>
 
 In order to visualize the token representaion in each layer, authors use dimensionality reduction + K-means Clustering. For dimensionality reduction, they apply T-distributed Stochastic Neighbor Embedding (t-SNE), Principal Component Analysis (PCA) and Independent Component Analysis (ICA) to vectors in each layer. Then for clustering, they choose number of clusters k in regard to the number of observed clusters in PCA.  In the figure below, you can see the visualization of each layer of the BERT model trained on the SQUAD dataset. As illustrated in the figure, the early layers within the BERT-based models group tokens into topical clusters., resulting vector spaces are similar in nature to embedding spaces from e.g.
 Word2Vec and hold little task-specific information. Therefore, these initial layers reach low accuracy on semantic probing tasks, BERT’s early layers can be seen as
