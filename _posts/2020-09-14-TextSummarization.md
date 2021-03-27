@@ -13,6 +13,8 @@ tags:
 
 Automatic summarization is the process of shortening a set of data computationally, to create a subset (a summary) that represents the most important or relevant information within the original content. Text summarization finds the most informative sentences in a document. 
 
+Here is also my [Colab notebook](https://colab.research.google.com/drive/1-wp_pRVxl6c0Y0esn8ShIdeil3Bh854d?usp=sharing) on fine tuning T5 model for summarization task using Trenasformers + PyTorch Lightning
+
 Table of Contents
 =================
 
