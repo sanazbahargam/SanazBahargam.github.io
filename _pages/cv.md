@@ -17,7 +17,7 @@ Education
 * Ph.D in Computer Science, Boston University, 2017
 * B.S. in Computer Science, Shariaty University, 2011
 
-<!--- Work experience
+ Work experience
 ======
 
 * 2017 - Present: Machine Learning Engineer
@@ -32,7 +32,7 @@ Education
 * Summer 2015: Research Intern
   * 128 Technology  
   * Research on using machine learning for traffic modeling and traffic congestion avoidance. In addition, research on using unsupervised and supervised anomaly detection analysis using network traffic feature distributions, clustering methods, and neural networks.
---> 
+ 
   
 Skills
 ======
