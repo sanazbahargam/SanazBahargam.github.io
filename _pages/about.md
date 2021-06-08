@@ -9,7 +9,9 @@ redirect_from:
 ---
 
 
-My name is Sanaz Bahargam. I completed a Ph.D. degree at the [Computer Science](http://www.cs.bu.edu/) Department of [Boston University](http://www.bu.edu/) in June 2017 and I am currently at Twitter, working on NLP and Learning to Rank problems. 
+My name is Sanaz Bahargam. I am currently an applied scientist at Amazon Alexa AI and before that I was at at Twitter, working on NLP and Learning to Rank problems. 
+
+I completed a Ph.D. degree at the [Computer Science](http://www.cs.bu.edu/) Department of [Boston University](http://www.bu.edu/) in June 2017.
 My research interests are in the areas of Natural Language Processing, Applied Machine Learning, Deep Learning, and Algorithmic Data Mining.
 During my Ph.D., I worked with Professor [Evimaria Terzi](https://www.cs.bu.edu/~evimaria/), Professor [Theodoros Lappas](http://tedlappas.com/), and Professor  [Vagelis Papalexakis](http://www.cs.ucr.edu/~epapalex/). Before joining [Data Mining and Machine Learning Group](http://www.bu.edu/cs/dblab/) in 2015, I was a member of [Networks Research Group](http://www.bu.edu/cs/nrg/) and [iBench Initiative](https://sites.google.com/site/ibenchbu/) working with Professor [Azer Bestavros](http://azer.bestavros.net/).
 
