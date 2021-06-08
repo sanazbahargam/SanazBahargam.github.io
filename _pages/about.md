@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-My name is Sanaz Bahargam. I am currently an applied scientist at Amazon Alexa AI and before that I was at at Twitter, working on NLP and Learning to Rank problems. 
+My name is Sanaz Bahargam. I am currently an applied scientist at Amazon Alexa AI (Lab126) and before that I was at at Twitter, working on NLP and Learning to Rank problems. 
 
 I completed a Ph.D. degree at the [Computer Science](http://www.cs.bu.edu/) Department of [Boston University](http://www.bu.edu/) in June 2017.
 My research interests are in the areas of Natural Language Processing, Applied Machine Learning, Deep Learning, and Algorithmic Data Mining.
