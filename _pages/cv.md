@@ -20,13 +20,13 @@ Education
  Work experience
 ======
 
-* 2021 - Present: Applied Scientist
-  * Amazon
+* 2021 - Present: Applied Scientist 
+  * Amazon Lab126
   * Area of Expertise: NLProc, Deep Learning
 
 * 2017 - 2021: Machine Learning Engineer
   * Twitter
-  * Area of Expertise: NLProc, Learning to Rank
+  * Area of Expertise: NLProc, Learning to Rank, Deep Learning
 
 * Summer 2016: Visiting Research Scientist and Adjunt Professor
   * Stevens Institute of Technology  
