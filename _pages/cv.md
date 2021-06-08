@@ -20,7 +20,11 @@ Education
  Work experience
 ======
 
-* 2017 - Present: Machine Learning Engineer
+* 2021 - Present: Applied Scientist
+  * Amazon
+  * Area of Expertise: NLProc, Deep Learning
+
+* 2017 - 2021: Machine Learning Engineer
   * Twitter
   * Area of Expertise: NLProc, Learning to Rank
 
