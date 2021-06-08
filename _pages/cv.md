@@ -24,7 +24,7 @@ Education
   * Amazon Lab126
   * Area of Expertise: NLProc, Deep Learning
 
-* 2017 - 2021: Machine Learning Engineer
+* 2017 - 2021: Machine Learning Engineer (L6)
   * Twitter
   * Area of Expertise: NLProc, Learning to Rank, Deep Learning
 
