@@ -42,7 +42,7 @@ Skills
 ======
 * Natural Langugage Processing
 * Deep Learning
-  * Transfer Learning
+  * Transfer Learning, Model Optimization
   * Pytorch, Transformers, PyTorch Lightning, Keras
 * Machine Learning
 * Ranking and Recommendation
