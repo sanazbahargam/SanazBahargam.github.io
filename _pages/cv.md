@@ -26,11 +26,11 @@ Education
 
 * 2017 - 2021: Machine Learning Engineer (L6)
   * Twitter
-  * Area of Expertise: NLProc, Learning to Rank, Deep Learning
+  * Area of Expertise: Deep Learning, NLProc, Learning to Rank
 
 * Summer 2016: Visiting Research Scientist and Adjunt Professor
   * Stevens Institute of Technology  
-  * Teaching Data Science course
+  * Teaching Data Science and Machine Learning course
   * Research on forming efficient teams
   
 * Summer 2015: Research Intern
@@ -42,8 +42,11 @@ Skills
 ======
 * Natural Langugage Processing
 * Deep Learning
+  * Transfer Learning
   * Pytorch, Transformers, PyTorch Lightning, Keras
 * Machine Learning
+* Ranking and Recommendation
+* Search (query expansion, query rewriting, ranking, personalization) 
 * Data Mining
 * Data Science
 * Python, Scala, C/C++, Java, Matlab, R
