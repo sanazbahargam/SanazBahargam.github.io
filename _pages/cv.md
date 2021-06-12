@@ -36,11 +36,6 @@ Education
 * Summer 2015: Research Intern
   * 128 Technology  
   * Research on using machine learning for traffic modeling and traffic congestion avoidance. In addition, research on using unsupervised and supervised anomaly detection analysis using network traffic feature distributions, clustering methods, and neural networks.
- 
- Software Engineer
-Company NameParseh Full-time
-Dates EmployedMay 2010 – Aug 2011
-Employment Duration1 yr 4 mos
 
 
 * 2009-2011: Software Engineer
