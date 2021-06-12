@@ -14,8 +14,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Science, Boston University, 2017
-* B.S. in Computer Science, Shariaty University, 2011
+* Ph.D in Computer Science, Boston University, 2017 (Machine Learning and Deep Learning)
+* B.S. in Computer Science, Shariaty University, 2011 (Data Mining and Clustering)
 
  Work experience
 ======
