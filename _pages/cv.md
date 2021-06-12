@@ -21,7 +21,7 @@ Education
 ======
 
 * 2021 - Present: Applied Scientist (L6)
-  * Amazon Lab126
+  * [Amazon Lab126](https://amazon.jobs/en/teams/lab126/)
   * Area of Expertise: NLProc, Deep Learning
 
 * 2017 - 2021: Machine Learning Engineer (L6)
