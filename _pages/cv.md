@@ -74,6 +74,27 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Invited Talks
+======
+* [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) Trend/Event Detection and Recommendation @Twitter  
+* North American Chapter of the Association for Computational Linguistics [NAACL 2019](https://naacl.org/naacl-hlt-2019/blog/kudos-reviewers/) 
+* [LXAI ICML 2019](https://www.latinxinai.org/icml-2019#workshop-org/) 
+* IEEE Transactions on Knowledge and Data Engineering, TKDE 2018
+* WIML, NIPS 2017 
+
+<b> External Reviewer:</b>
+* KDD-2019
+* ICDE-2018
+* TKDE 2017
+* KDD-2017
+* WWW-2017
+* WSDM-2017
+* ICDM-2016
+* CIKM-2016
+* WWW- 2016
+* INFORMS Journal on Computing (IJOC)-2016
+* WSDM-2016
+
 Service and leadership
 ======
 <b> PC member: </b>
