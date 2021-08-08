@@ -77,10 +77,7 @@ Teaching
 Invited Talks
 ======
 * [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) Trend/Event Detection and Recommendation @Twitter  
-* North American Chapter of the Association for Computational Linguistics [NAACL 2019](https://naacl.org/naacl-hlt-2019/blog/kudos-reviewers/) 
-* [LXAI ICML 2019](https://www.latinxinai.org/icml-2019#workshop-org/) 
-* IEEE Transactions on Knowledge and Data Engineering, TKDE 2018
-* WIML, NIPS 2017 
+* [Writing a research paper](https://www.yumpu.com/en/document/read/26306756/writing-a-research-paper), Boston Univeristy
 
 <b> External Reviewer:</b>
 * KDD-2019
