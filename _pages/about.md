@@ -21,7 +21,7 @@ My Erdős number is 1. I have a [publication](https://sanazbahargam.github.io/pu
 
 Recent News
 ======
-* I will be speaking at [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) about Trend/Event Detection and Recommendation @Twitter
+* February 2, 2020. I will be speaking at [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) about Trend/Event Detection and Recommendation @Twitter
 * April 13, 2019. Our paper  [The Guided TeamPartitioning Problem: Definition, Complexity, and Algorithm](https://sanazbahargam.github.io/publication/EDM2019) was accepted at the 12 International Conference on Educational Data Mining (EDM).
 * November 27, 2018. My [notes and summary of talks](https://github.com/sanazbahargam/CODE2018) on the 2018 Conference on Digital Experimentation (CODE).
 * October 25, 2018. Our paper  [Team Formation Algorithm for Faultline Minimization](https://sanazbahargam.github.io/publication/ESA2019) was accepted at Expert Systems with Applications (ESWA).
