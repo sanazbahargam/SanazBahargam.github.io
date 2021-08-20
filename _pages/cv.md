@@ -115,6 +115,6 @@ Honors and Awards
 * Grace Hopper 2017 Travel Grant
 * Best teaching assistance, 2016
 * KDD 2016 Travel Grant
-* BPID 2016 Travel Grant
+* BPDM 2016 Travel Grant
 * First-Rank Graduation Award from Shariaty University Computer Science 2011
 * Best teaching assistance, 2009
