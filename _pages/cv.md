@@ -107,3 +107,13 @@ Service and leadership
 * Inclusion and Diversity committee member, Twitter, 2019-2021
 * Graduate Student Representative and ambassador, Boston University, Sep 2011 – May 2017 
 * Organizer: ICML 2021, NAACL 2020, ICLR 2021
+
+
+Honors and Awards
+* VLDB 2015 Travel Grant
+* Grace Hopper 2017 Travel Grant
+* Best teaching assistance, 2016
+* KDD 2016 Travel Grant
+* BPID 2016 Travel Grant
+* First-Rank Graduation Award from Shariaty University Computer Science 2011
+* Best teaching assistance, 2009
