@@ -110,6 +110,7 @@ Service and leadership
 
 
 Honors and Awards
+======
 * VLDB 2015 Travel Grant
 * Grace Hopper 2017 Travel Grant
 * Best teaching assistance, 2016
