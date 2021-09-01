@@ -117,6 +117,7 @@ Honors and Awards
 * KDD 2016 Travel Grant
 * BPDM 2016 Travel Grant
 * First-Rank Graduation Award from Shariaty University Computer Science 2011, and ranked 1 at Shariaty University (2007-2011)
+* Graduation with Honors, Summa Cum Laude (2011)
 * Recipient of the Best Student Award, Shariaty University 2010
 * Teaching Award, CS department, 2009
 * Bronze medal of the 16th National WorldSkills (in Web Design) championships, Iran (2008)
