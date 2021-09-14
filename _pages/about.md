@@ -31,6 +31,6 @@ Recent News
 * June 18, 2018. Our paper  [Constrained Coupled Matrix-Tensor Factorization and its Application in Pattern and Topic Detection](https://sanazbahargam.github.io/publication/ASONAM2018) was accepted at ACM International Conference on Advances in Social Networks Analysis and Mining, 2018 (ASONAM).
 * May 22, 2018. Our paper  [Discovering Time-Evolving Topics of Varying Levels of Difficulty via Constrained Coupled Matrix-Tensor Factorization](https://sanazbahargam.github.io/publication/IC2S22018) was accepted for poster presentation at the 4th International Conference on Computational Social Science (IC2S2).
 * February 1, 2018. My [notes](https://github.com/sanazbahargam/Query-Understanding) on query understanding.
-* August 30, 2017. I'm delighted to join Twitter as an ML engineer to work on NLP and ranking problems.
+* July 24, 2017. I'm delighted to join Twitter as an ML engineer to work on NLP and ranking problems.
 * June 15, 2017. I successfully defended my Ph.D. dissertation.
 
