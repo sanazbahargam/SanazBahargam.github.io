@@ -21,7 +21,8 @@ My Erdős number is 1. I have a [publication](https://sanazbahargam.github.io/pu
 
 Recent News
 ======
-* September 1, I will be speaking abot my team's work on task-based dialog systesm at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference/speakers-127.html) Conference this October
+* September 1, 2021. I will be speaking abot my team's work on task-based dialog systesm at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference/speakers-127.html) Conference this October
+* August 4, 2021. I'm happy to be a mentor for  [#IGLUcontest @NeurIPSConf](https://www.iglu-contest.net/mentors), Looking forward to helping the participants.
 * February 2, 2020. I will be speaking at [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) about Trend/Event Detection and Recommendation @Twitter
 * April 13, 2019. Our paper  [The Guided TeamPartitioning Problem: Definition, Complexity, and Algorithm](https://sanazbahargam.github.io/publication/EDM2019) was accepted at the 12 International Conference on Educational Data Mining (EDM).
 * November 27, 2018. My [notes and summary of talks](https://github.com/sanazbahargam/CODE2018) on the 2018 Conference on Digital Experimentation (CODE).
