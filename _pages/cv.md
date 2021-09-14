@@ -97,7 +97,7 @@ Speaking Engagements
 Service and leadership
 ======
 <b> PC member: </b>
-* WIT: Workshop On Deriving Insights From User-Generated Text @KDD2021
+* [WIT](https://megagon.ai/wit/): Workshop On Deriving Insights From User-Generated Text @KDD2021
 * North American Chapter of the Association for Computational Linguistics [NAACL 2019](https://naacl.org/naacl-hlt-2019/blog/kudos-reviewers/) 
 * [LXAI ICML 2019](https://www.latinxinai.org/icml-2019#workshop-org/) 
 * IEEE Transactions on Knowledge and Data Engineering, TKDE 2018
