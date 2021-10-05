@@ -3,13 +3,12 @@ permalink: /
 title: "Bio:"
 excerpt: "Sanaz Bahargam"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
-
-My name is Sanaz Bahargam. I am currently an applied scientist at [Amazon Lab 126](https://amazon.jobs/en/teams/lab126/) (Alexa AI team) wokring on NLP and Deep Learning. Before that I was at at Twitter, working on Deep Learning, NLP and Learning to Rank problems with a focus on Seach, Explore, and Trends/Events products. During the last few years, I've been extensively working on Learning to Rank, Text Classification, Transfer Learning, Continous learning, and Model Optimization. 
+My name is Sanaz Bahargam. I am currently an applied scientist at [Amazon Lab 126](https://amazon.jobs/en/teams/lab126/) (Alexa AI team) working on NLP and Deep Learning. Before that I was at Twitter, working on Deep Learning, NLP and Learning to Rank problems with a focus on Search, Explore, and Trends/Events products. During the last few years, I've been extensively working on Learning to Rank, Text Classification, Transfer Learning, Continuous learning, and Model Optimization. 
 
 I completed a Ph.D. degree at the [Computer Science](http://www.cs.bu.edu/) Department of [Boston University](http://www.bu.edu/) in Machine Learning in June 2017.
 My research interests are in the areas of Natural Language Processing, Applied Machine Learning, Deep Learning, and Algorithmic Data Mining.
@@ -21,7 +20,7 @@ My Erdős number is 1. I have a [publication](https://sanazbahargam.github.io/pu
 
 Recent News
 ======
-* September 1, 2021. I will be speaking abot my team's work on task-based dialog systesm at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference/speakers-127.html) Conference this October
+* September 1, 2021. I will be speaking about my team's work on task-based dialog system at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference/speakers-127.html) Conference this October
 * August 4, 2021. I'm happy to be a mentor for  [#IGLUcontest @NeurIPSConf](https://www.iglu-contest.net/mentors), Looking forward to helping the participants.
 * February 2, 2020. I will be speaking at [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) about Trend/Event Detection and Recommendation @Twitter
 * April 13, 2019. Our paper  [The Guided TeamPartitioning Problem: Definition, Complexity, and Algorithm](https://sanazbahargam.github.io/publication/EDM2019) was accepted at the 12 International Conference on Educational Data Mining (EDM).
