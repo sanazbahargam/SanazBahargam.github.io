@@ -1,12 +1,10 @@
 ---
 layout: archive
-permalink: /
-title: "CV:"
-excerpt: "Sanaz Bahargam"
+title: ""
+permalink: /cv/
 author_profile: true
 redirect_from:
-  - /CV/
-  - /CV.html
+  - /resume
 ---
 
 {% include base_path %}
