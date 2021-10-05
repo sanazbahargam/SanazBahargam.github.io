@@ -20,6 +20,7 @@ My Erdős number is 1. I have a [publication](https://sanazbahargam.github.io/pu
 
 Recent News
 ======
+* September 27, 2021. I will be speaking about my work on Alexa Conversations at [NLP Summit 2021](https://www.nlpsummit.org/alexa-conversations-an-ai-driven-approach-for-creating-task-oriented-dialogue-systems/) this October.
 * September 1, 2021. I will be speaking about my team's work on task-based dialog system at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference/speakers-127.html) Conference this October
 * August 4, 2021. I'm happy to be a mentor for  [#IGLUcontest @NeurIPSConf](https://www.iglu-contest.net/mentors), Looking forward to helping the participants.
 * February 2, 2020. I will be speaking at [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) about Trend/Event Detection and Recommendation @Twitter
