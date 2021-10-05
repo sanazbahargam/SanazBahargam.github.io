@@ -1,12 +1,12 @@
 ---
 layout: archive
 permalink: /
-title: "Bio:"
+title: "CV:"
 excerpt: "Sanaz Bahargam"
 author_profile: true
 redirect_from:
-  - /about/
-  - /about.html
+  - /CV/
+  - /CV.html
 ---
 
 {% include base_path %}
