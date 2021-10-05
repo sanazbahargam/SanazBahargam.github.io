@@ -81,18 +81,6 @@ Speaking Engagements
 * [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) Trend/Event Detection and Recommendation @Twitter  
 * [Writing a research paper](https://www.yumpu.com/en/document/read/26306756/writing-a-research-paper), Boston Univeristy
 
-<b> External Reviewer:</b>
-* KDD-2019
-* ICDE-2018
-* TKDE 2017
-* KDD-2017
-* WWW-2017
-* WSDM-2017
-* ICDM-2016
-* CIKM-2016
-* WWW- 2016
-* INFORMS Journal on Computing (IJOC)-2016
-* WSDM-2016
 
 Service and leadership
 ======
@@ -110,6 +98,18 @@ Service and leadership
 * Graduate Student Representative and ambassador, Boston University, Sep 2011 – May 2017 
 * Organizer: ICML 2021, NAACL 2020, ICLR 2021
 
+<b> External Reviewer:</b>
+* KDD-2019
+* ICDE-2018
+* TKDE 2017
+* KDD-2017
+* WWW-2017
+* WSDM-2017
+* ICDM-2016
+* CIKM-2016
+* WWW- 2016
+* INFORMS Journal on Computing (IJOC)-2016
+* WSDM-2016
 
 Honors and Awards
 ======
