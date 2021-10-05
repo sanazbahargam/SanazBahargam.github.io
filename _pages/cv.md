@@ -75,8 +75,9 @@ Teaching
   
 Speaking Engagements
 ======
+* [NLP Summit 2021](https://www.nlpsummit.org/alexa-conversations-an-ai-driven-approach-for-creating-task-oriented-dialogue-systems/), my work on Alexa Conversations
 * [Saint Louis University, computer science department]()
-* [Global #ArtificialIntelligence Conference](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference/speakers-127.html), my team's work on task-based dialog systems
+* [Global #ArtificialIntelligence Conference](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference-127/speaker-details/sanaz-bahargan-114123.html), my team's work on task-based dialog systems
 * [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) Trend/Event Detection and Recommendation @Twitter  
 * [Writing a research paper](https://www.yumpu.com/en/document/read/26306756/writing-a-research-paper), Boston Univeristy
 
