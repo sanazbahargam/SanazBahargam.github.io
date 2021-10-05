@@ -15,7 +15,7 @@ Education
 ======
 * Ph.D in Computer Science, Boston University, 2017
    * Focus: Machine Learning and Deep Learning
-* B.S. in Computer Science, Shariaty University, 2011 
+* B.S. in Computer Science, Shariaty University, 2011
    * Focus: Data Mining and Clustering
 
  Work experience
@@ -29,11 +29,11 @@ Education
   * Twitter
   * Area of Expertise: Deep Learning, NLProc, Learning to Rank
 
-* Summer 2016: Visiting Research Scientist and Adjunt Professor
+* Summer 2016: Visiting Research Scientist and Adjunct Professor
   * Stevens Institute of Technology  
   * Teaching Data Science and Machine Learning course
   * Research on forming efficient teams
-  
+ 
 * Summer 2015: Research Intern
   * 128 Technology  
   * Research on using machine learning for traffic modeling and traffic congestion avoidance. In addition, research on using unsupervised and supervised anomaly detection analysis using network traffic feature distributions, clustering methods, and neural networks.
@@ -41,22 +41,22 @@ Education
 
 * 2009-2011: Software Engineer
   * Parseh
-  * Designing and development of software infrastructures and data base solutions
+  * Designing and development of software infrastructures and database solutions
 
 * Spring/Summer 2009: Software Engineer Intern
   * Parseh
-  * Designing and development of software infrastructures and data base solutions
+  * Designing and development of software infrastructures and database solutions
 
-  
+ 
 Skills
 ======
-* Natural Langugage Processing
+* Natural Language Processing
 * Deep Learning
   * Transfer Learning, Model Optimization
   * Pytorch, Transformers, PyTorch Lightning, Keras
 * Machine Learning
 * Ranking and Recommendation
-* Search (query expansion, query rewriting, ranking, personalization) 
+* Search (query expansion, query rewriting, ranking, personalization)
 * Data Mining
 * Data Science
 * Python, Scala, C/C++, Java, Matlab, R
@@ -66,36 +66,36 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+ 
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+ 
 Speaking Engagements
 ======
 * [NLP Summit 2021](https://www.nlpsummit.org/alexa-conversations-an-ai-driven-approach-for-creating-task-oriented-dialogue-systems/), my work on Alexa Conversations
 * [Saint Louis University, computer science department]()
 * [Global #ArtificialIntelligence Conference](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference-127/speaker-details/sanaz-bahargan-114123.html), my team's work on task-based dialog systems
 * [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) Trend/Event Detection and Recommendation @Twitter  
-* [Writing a research paper](https://www.yumpu.com/en/document/read/26306756/writing-a-research-paper), Boston Univeristy
+* [Writing a research paper](https://www.yumpu.com/en/document/read/26306756/writing-a-research-paper), Boston University
 
 
 Service and leadership
 ======
 <b> PC member: </b>
 * [WIT](https://megagon.ai/wit/): Workshop On Deriving Insights From User-Generated Text @KDD2021
-* North American Chapter of the Association for Computational Linguistics [NAACL 2019](https://naacl.org/naacl-hlt-2019/blog/kudos-reviewers/) 
-* [LXAI ICML 2019](https://www.latinxinai.org/icml-2019#workshop-org/) 
+* North American Chapter of the Association for Computational Linguistics [NAACL 2019](https://naacl.org/naacl-hlt-2019/blog/kudos-reviewers/)
+* [LXAI ICML 2019](https://www.latinxinai.org/icml-2019#workshop-org/)
 * IEEE Transactions on Knowledge and Data Engineering, TKDE 2018
-* WIML, NIPS 2017 
+* WIML, NIPS 2017
 
 <b> Organizer and Mentor </b>
-* Mentor for [IGLUcontest](https://www.iglu-contest.net/mentors) at NeurIPSConference
+* Mentor for [IGLUcontest](https://www.iglu-contest.net/mentors) at NeurIPS Conference
 * Organizer and Presenter, Girls Who Code, 2018, 2019
 * Inclusion and Diversity committee member, Twitter, 2019-2021
-* Graduate Student Representative and ambassador, Boston University, Sep 2011 – May 2017 
+* Graduate Student Representative and ambassador, Boston University, Sep 2011 – May 2017
 * Organizer: ICML 2021, NAACL 2020, ICLR 2021
 
 <b> External Reviewer:</b>
