@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
+<br>
 
 My name is Sanaz Bahargam. I am currently an applied scientist at [Amazon Lab 126](https://amazon.jobs/en/teams/lab126/) (Alexa AI team) working on NLP and Deep Learning. Before that I was at Twitter, working on Deep Learning, NLP and Learning to Rank problems with a focus on Search, Explore, and Trends/Events products. During the last few years, I've been extensively working on Learning to Rank, Text Classification, Transfer Learning, Continuous learning, and Model Optimization. 
 
