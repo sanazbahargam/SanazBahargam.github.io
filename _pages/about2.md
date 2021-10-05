@@ -1,125 +1,34 @@
 ---
-layout: archive
-title: "CV"
-permalink: /cv/
+permalink: /
+title: "Bio:"
+excerpt: "Sanaz Bahargam"
 author_profile: true
 redirect_from:
-  - /resume
-  
+  - /about/
+  - /about.html
 ---
 
-{% include base_path %}
+My name is Sanaz Bahargam. I am currently an applied scientist at [Amazon Lab 126](https://amazon.jobs/en/teams/lab126/) (Alexa AI team) working on NLP and Deep Learning. Before that I was at Twitter, working on Deep Learning, NLP and Learning to Rank problems with a focus on Search, Explore, and Trends/Events products. During the last few years, I've been extensively working on Learning to Rank, Text Classification, Transfer Learning, Continuous learning, and Model Optimization. 
 
-<br>
+I completed a Ph.D. degree at the [Computer Science](http://www.cs.bu.edu/) Department of [Boston University](http://www.bu.edu/) in Machine Learning in June 2017.
+My research interests are in the areas of Natural Language Processing, Applied Machine Learning, Deep Learning, and Algorithmic Data Mining.
+During my Ph.D., I worked with Professor [Evimaria Terzi](http://cs-people.bu.edu/evimaria/), Professor [Theodoros Lappas](http://tedlappas.com/), and Professor  [Vagelis Papalexakis](http://www.cs.ucr.edu/~epapalex/). Before joining [Data Mining and Machine Learning Group](http://www.bu.edu/cs/dblab/) in 2015, I was a member of [Networks Research Group](http://www.bu.edu/cs/nrg/) and [iBench Initiative](https://sites.google.com/site/ibenchbu/) working with Professor [Azer Bestavros](http://azer.bestavros.net/).
 
-Education
+Besides work, I often play volley with friends, I enjoy [hiking](https://photos.app.goo.gl/qB9zyZesNQTKm1GXA) and [photography](https://photos.app.goo.gl/GSWXzNiYngkzVQTu7). 
+
+My Erdős number is 1. I have a [publication](https://sanazbahargam.github.io/publication/EDM2015) with Erdős (not Paul, but with Dóra who happens to be a mathematician before entering the computer science field) :) For real my [Paul] Erdős number is 4.
+
+Recent News
 ======
-* Ph.D in Computer Science, Boston University, 2017
-   * Focus: Machine Learning and Deep Learning
-* B.S. in Computer Science, Shariaty University, 2011 
-   * Focus: Data Mining and Clustering
-
- Work experience
-======
-
-* 2021 - Present: Applied Scientist (L6)
-  * [Amazon Lab126](https://amazon.jobs/en/teams/lab126/)
-  * Area of Expertise: NLProc, Deep Learning
-
-* 2017 - 2021: Machine Learning Engineer (L6)
-  * Twitter
-  * Area of Expertise: Deep Learning, NLProc, Learning to Rank
-
-* Summer 2016: Visiting Research Scientist and Adjunt Professor
-  * Stevens Institute of Technology  
-  * Teaching Data Science and Machine Learning course
-  * Research on forming efficient teams
-  
-* Summer 2015: Research Intern
-  * 128 Technology  
-  * Research on using machine learning for traffic modeling and traffic congestion avoidance. In addition, research on using unsupervised and supervised anomaly detection analysis using network traffic feature distributions, clustering methods, and neural networks.
-
-
-* 2009-2011: Software Engineer
-  * Parseh
-  * Designing and development of software infrastructures and data base solutions
-
-* Spring/Summer 2009: Software Engineer Intern
-  * Parseh
-  * Designing and development of software infrastructures and data base solutions
-
-  
-Skills
-======
-* Natural Langugage Processing
-* Deep Learning
-  * Transfer Learning, Model Optimization
-  * Pytorch, Transformers, PyTorch Lightning, Keras
-* Machine Learning
-* Ranking and Recommendation
-* Search (query expansion, query rewriting, ranking, personalization) 
-* Data Mining
-* Data Science
-* Python, Scala, C/C++, Java, Matlab, R
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Speaking Engagements
-======
-* [Saint Louis University, computer science department]()
-* [Global #ArtificialIntelligence Conference](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference/speakers-127.html), my team's work on task-based dialog systems
-* [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) Trend/Event Detection and Recommendation @Twitter  
-* [Writing a research paper](https://www.yumpu.com/en/document/read/26306756/writing-a-research-paper), Boston Univeristy
-
-<b> External Reviewer:</b>
-* KDD-2019
-* ICDE-2018
-* TKDE 2017
-* KDD-2017
-* WWW-2017
-* WSDM-2017
-* ICDM-2016
-* CIKM-2016
-* WWW- 2016
-* INFORMS Journal on Computing (IJOC)-2016
-* WSDM-2016
-
-Service and leadership
-======
-<b> PC member: </b>
-* [WIT](https://megagon.ai/wit/): Workshop On Deriving Insights From User-Generated Text @KDD2021
-* North American Chapter of the Association for Computational Linguistics [NAACL 2019](https://naacl.org/naacl-hlt-2019/blog/kudos-reviewers/) 
-* [LXAI ICML 2019](https://www.latinxinai.org/icml-2019#workshop-org/) 
-* IEEE Transactions on Knowledge and Data Engineering, TKDE 2018
-* WIML, NIPS 2017 
-
-<b> Organizer and Mentor </b>
-* Mentor for [IGLUcontest](https://www.iglu-contest.net/mentors) at NeurIPSConference
-* Organizer and Presenter, Girls Who Code, 2018, 2019
-* Inclusion and Diversity committee member, Twitter, 2019-2021
-* Graduate Student Representative and ambassador, Boston University, Sep 2011 – May 2017 
-* Organizer: ICML 2021, NAACL 2020, ICLR 2021
-
-
-Honors and Awards
-======
-* VLDB 2015 Travel Grant
-* Grace Hopper 2017 Travel Grant
-* Teaching Award, CS department, 2016
-* KDD 2016 Travel Grant
-* BPDM 2016 Travel Grant
-* First-Rank Graduation Award from Shariaty University Computer Science 2011, and ranked 1 at Shariaty University (2007-2011)
-* Graduation with Honors, Summa Cum Laude (2011)
-* Recipient of the Best Student Award, Shariaty University 2010
-* Teaching Award, CS department, 2009
-* Bronze medal of the 16th National WorldSkills (in Web Design) championships, Iran (2008)
+* September 1, 2021. I will be speaking about my team's work on task-based dialog system at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference/speakers-127.html) Conference this October
+* August 4, 2021. I'm happy to be a mentor for  [#IGLUcontest @NeurIPSConf](https://www.iglu-contest.net/mentors), Looking forward to helping the participants.
+* February 2, 2020. I will be speaking at [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) about Trend/Event Detection and Recommendation @Twitter
+* April 13, 2019. Our paper  [The Guided TeamPartitioning Problem: Definition, Complexity, and Algorithm](https://sanazbahargam.github.io/publication/EDM2019) was accepted at the 12 International Conference on Educational Data Mining (EDM).
+* November 27, 2018. My [notes and summary of talks](https://github.com/sanazbahargam/CODE2018) on the 2018 Conference on Digital Experimentation (CODE).
+* October 25, 2018. Our paper  [Team Formation Algorithm for Faultline Minimization](https://sanazbahargam.github.io/publication/ESA2019) was accepted at Expert Systems with Applications (ESWA).
+* July 11, 2018. My [notes](https://github.com/sanazbahargam/SanazBahargam.github.io) on NAACL 2018.
+* June 18, 2018. Our paper  [Constrained Coupled Matrix-Tensor Factorization and its Application in Pattern and Topic Detection](https://sanazbahargam.github.io/publication/ASONAM2018) was accepted at ACM International Conference on Advances in Social Networks Analysis and Mining, 2018 (ASONAM).
+* May 22, 2018. Our paper  [Discovering Time-Evolving Topics of Varying Levels of Difficulty via Constrained Coupled Matrix-Tensor Factorization](https://sanazbahargam.github.io/publication/IC2S22018) was accepted for poster presentation at the 4th International Conference on Computational Social Science (IC2S2).
+* February 1, 2018. My [notes](https://github.com/sanazbahargam/Query-Understanding) on query understanding.
+* July 24, 2017. I'm delighted to join Twitter as an ML engineer to work on NLP and ranking problems.
+* June 15, 2017. I successfully defended my Ph.D. dissertation.
