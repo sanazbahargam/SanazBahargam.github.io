@@ -18,7 +18,7 @@ Besides work, I often play volley with friends, I enjoy [hiking](https://photos.
 
 My Erdős number is 1. I have a [publication](https://sanazbahargam.github.io/publication/EDM2015) with Erdős (not Paul, but with Dóra who happens to be a mathematician before entering the computer science field) :) For real my [Paul] Erdős number is 4.
 
-Recent News sdfsd
+Recent News
 ======
 * September 27, 2021. I will be speaking about my work on Alexa Conversations at [NLP Summit 2021](https://www.nlpsummit.org/alexa-conversations-an-ai-driven-approach-for-creating-task-oriented-dialogue-systems/) this October.
 * September 1, 2021. I will be speaking about my team's work on task-based dialog system at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference-127/speaker-details/sanaz-bahargan-114123.html) Conference this October
