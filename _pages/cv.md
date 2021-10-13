@@ -11,8 +11,6 @@ redirect_from:
 
 <br>
 
-is it updating?
-
 Education
 ======
 * Ph.D in Computer Science, Boston University, 2017
