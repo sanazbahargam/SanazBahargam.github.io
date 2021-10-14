@@ -22,7 +22,7 @@ Recent News
 ======
 *  October 13, 2021. I will be speaking about my work on reommendations and ranking at Department of Computer Science - Saint Louis University.
 * September 27, 2021. I will be speaking about my work on Alexa Conversations at [NLP Summit 2021](https://www.nlpsummit.org/alexa-conversations-an-ai-driven-approach-for-creating-task-oriented-dialogue-systems/) this October.
-* September 1, 2021. I will be speaking about my team's work on task-based dialog system at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference-127/speaker-details/sanaz-bahargan-114123.html) Conference this October. [Youtube](https://www.youtube.com/watch?v=sScbpUvQYpM)
+* September 1, 2021. I will be speaking about my team's work on task-based dialog system at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference-127/speaker-details/sanaz-bahargan-114123.html) Conference this October. [YouTube](https://www.youtube.com/watch?v=sScbpUvQYpM)
 * August 4, 2021. I'm happy to be a mentor for  [#IGLUcontest @NeurIPSConf](https://www.iglu-contest.net/mentors), Looking forward to helping the participants.
 * February 2, 2020. I will be speaking at [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) about Trend/Event Detection and Recommendation @Twitter
 * April 13, 2019. Our paper  [The Guided TeamPartitioning Problem: Definition, Complexity, and Algorithm](https://sanazbahargam.github.io/publication/EDM2019) was accepted at the 12 International Conference on Educational Data Mining (EDM).
