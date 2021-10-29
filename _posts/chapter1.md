@@ -7,6 +7,8 @@ tags:
   - Deep Learning
   - Interview
 ---
+
+
 Cost function: squared of difference, convex
 Algorithm: Gradient Descent (each time taking the derivative of the cost function with respect to one of the parameters) or numerically (via normal equation and matrix inverse). theta= (XTX)-1 XTy (here inverse O(n3)). However, if the number of features is larger than the number of data points, the matrix XXT is not invertible and we should get the pseudo inverse.  When we add regularization, we are sure that the matrix is invertible     Is the regularization added here (lambda identity matrix) is L2
 
@@ -86,6 +88,5 @@ where f is the density function.
 
  where y^ is the probability of y being predicted as 1
 Density function of binary classification problem (or the mean)
-
 
 
