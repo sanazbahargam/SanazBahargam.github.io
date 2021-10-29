@@ -9,6 +9,7 @@ tags:
 ---
 
 
+Linear Regression:
 Cost function: squared of difference, convex
 Algorithm: Gradient Descent (each time taking the derivative of the cost function with respect to one of the parameters) or numerically (via normal equation and matrix inverse). theta= (XTX)-1 XTy (here inverse O(n3)). However, if the number of features is larger than the number of data points, the matrix XXT is not invertible and we should get the pseudo inverse.  When we add regularization, we are sure that the matrix is invertible     Is the regularization added here (lambda identity matrix) is L2
 
@@ -55,38 +56,4 @@ Get more data
 Drop variables
 Do principal component regression
 Do partial least squares regression
-
-Logistic regression:
-Cost function: Cost(h(x) , y) = -y log h(x)  - (1 - y) log(1 - h(x))    convex
- remember the cost function of linear regression is not convex for logistic (because of 1/1+e-x)
-Algorithm: gradient descent. There is no closed form solution for logistic regression here.
-
-The loss function for logistic regression is Log Loss, which is defined as follows with regularization (explanation on how we have obtain log loss from likelihood of theta)
-
-
-The regularization term is divided by 1/2m for a couple of reasons: 1) to make the cost function comparable in different batch sizes. 2) to scale down regularization as the size of training examples grows, basically, we need less regularization as the number of data points grows. 3) Making λ comparable across different datasets and less hyperparameter tuning when the size of data changes. 
-
-Multi-class classifier: for k classes, we trained k classifiers (one versus all) and assigned the data point to the class with the highest probability. Then we can use the log loss function (equivalent to the above cost function for only two classes).
-
-where N is the number of samples or instances, M is the number of possible labels, yij is a binary indicator of whether or not label j is the correct classification, for instance, i, and pij is the model probability of assigning label j to instance i.
-An ROC curve plots TPR vs. FPR at different classification thresholds.
-Recall for multi-class LR we have:
-
-Assumption of Logistic regressions
-the independent variables do not need to be multivariate normal – although multivariate normality yields a more stable solution 
-homoscedasticity isn’t needed (residuals don't need to be equal across the regression line)
-assumes that there is minimal or no multicollinearity among the independent variables
-the independent variables are linearly related to the log of odds
-LR fits a single line to divide the space, hence the space should be linearly separable
-Maximum likelihood and log loss
-Link, also this one
-Basically we want to find the 𝜃 to maximum likelihood of data in each class. Basically, it means how likely the data could be assigned to each class or label.
-where f is the density function.
-
-
-
-
- where y^ is the probability of y being predicted as 1
-Density function of binary classification problem (or the mean)
-
 
