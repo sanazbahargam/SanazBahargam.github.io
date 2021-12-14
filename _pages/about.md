@@ -21,7 +21,7 @@ My Erdős number is 1. I have a [publication](https://sanazbahargam.github.io/pu
 Recent News
 ======
 *  Dec 04, 2021. I will be speaking about my work on using machine learning for Search and Recommendation at [Debug Summit 2021](https://lesbianswhotech.org/debugsummit2021/).
-*  October 13, 2021. I will be speaking about my work on reommendations and ranking at Department of Computer Science - Saint Louis University.
+*  October 13, 2021. I will be speaking about my work on reommendations and ranking at [Department of Computer Science - Saint Louis University](https://cs.slu.edu/~esposito/teaching/5090/schedule/index.html).
 * September 27, 2021. I will be speaking about my work on Alexa Conversations at [NLP Summit 2021](https://www.nlpsummit.org/alexa-conversations-an-ai-driven-approach-for-creating-task-oriented-dialogue-systems/) this October.
 * September 1, 2021. I will be speaking about my team's work on task-based dialog system at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference-127/speaker-details/sanaz-bahargan-114123.html) Conference this October. [YouTube](https://www.youtube.com/watch?v=sScbpUvQYpM)
 * August 4, 2021. I'm happy to be a mentor for  [#IGLUcontest @NeurIPSConf](https://www.iglu-contest.net/mentors), Looking forward to helping the participants.
