@@ -75,8 +75,9 @@ Teaching
  
 Speaking Engagements
 ======
+* [Debug Summit 2021](https://lesbianswhotech.org/debugsummit2021/) my work on using machine learning for Search and Recommendation 
 * [NLP Summit 2021](https://www.nlpsummit.org/alexa-conversations-an-ai-driven-approach-for-creating-task-oriented-dialogue-systems/), my work on Alexa Conversations
-* [Saint Louis University, computer science department]()
+* [Saint Louis University, computer science department](https://cs.slu.edu/~esposito/teaching/5090/schedule/index.html), my work on Machine Learning for  Reommendations and Ranking
 * [Global #ArtificialIntelligence Conference](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference-127/speaker-details/sanaz-bahargan-114123.html), my team's work on task-based dialog systems, [YouTube](https://www.youtube.com/watch?v=sScbpUvQYpM)
 * [Lyft meetup](https://twitter.com/wimlds_bayarea/status/1230578670584004608?lang=ca) Trend/Event Detection and Recommendation @Twitter  
 * [Writing a research paper](https://www.yumpu.com/en/document/read/26306756/writing-a-research-paper), Boston University
