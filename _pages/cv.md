@@ -75,6 +75,7 @@ Teaching
  
 Speaking Engagements
 ======
+*  [Department of Computer Science - Saint Louis University(https://home.cs.colorado.edu/~DrG/Courses/NeuralNetworksAndDeepLearning/CourseContent.html), Deep Learning in Industry
 * [Debug Summit 2021](https://lesbianswhotech.org/debugsummit2021/), my work on using machine learning for Search and Recommendation 
 * [NLP Summit 2021](https://www.nlpsummit.org/alexa-conversations-an-ai-driven-approach-for-creating-task-oriented-dialogue-systems/), my work on Alexa Conversations
 * [Saint Louis University, computer science department](https://cs.slu.edu/~esposito/teaching/5090/schedule/index.html), my work on Machine Learning for  Reommendations and Ranking
