@@ -14,7 +14,7 @@ I completed a Ph.D. degree at the [Computer Science](http://www.cs.bu.edu/) Depa
 My research interests are in the areas of Natural Language Processing, Applied Machine Learning, Deep Learning, and Algorithmic Data Mining.
 During my Ph.D., I worked with Professor [Evimaria Terzi](http://cs-people.bu.edu/evimaria/), Professor [Theodoros Lappas](http://tedlappas.com/), and Professor  [Vagelis Papalexakis](http://www.cs.ucr.edu/~epapalex/). Before joining [Data Mining and Machine Learning Group](http://www.bu.edu/cs/dblab/) in 2015, I was a member of [Networks Research Group](http://www.bu.edu/cs/nrg/) and [iBench Initiative](https://sites.google.com/site/ibenchbu/) working with Professor [Azer Bestavros](http://azer.bestavros.net/).
 
-Besides work, I often play volley with friends, I enjoy [hiking](https://photos.app.goo.gl/qB9zyZesNQTKm1GXA) and [photography](https://photos.app.goo.gl/GSWXzNiYngkzVQTu7). 
+Besides work, I often play volley with friends, I enjoy [hiking](https://photos.app.goo.gl/qB9zyZesNQTKm1GXA) and amateur [photography](https://photos.app.goo.gl/GSWXzNiYngkzVQTu7) with my phone. 
 
 My Erdős number is 1. I have a [publication](https://sanazbahargam.github.io/publication/EDM2015) with Erdős (not Paul, but with Dóra who happens to be a mathematician before entering the computer science field) :) For real my [Paul] Erdős number is 4.
 
