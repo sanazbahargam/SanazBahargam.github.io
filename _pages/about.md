@@ -20,7 +20,7 @@ My Erdős number is 1. I have a [publication](https://sanazbahargam.github.io/pu
 
 Recent News
 ======
-*   Jan 27, 2023. I will be speaking about Deep Learning in Industry at [Department of Computer Science - University of Colorado Boulder](https://home.cs.colorado.edu/~DrG/Courses/NeuralNetworksAndDeepLearning/CourseContent.html).
+*   Jan 27, 2022. I will be speaking about Deep Learning in Industry at [Department of Computer Science - University of Colorado Boulder](https://home.cs.colorado.edu/~DrG/Courses/NeuralNetworksAndDeepLearning/CourseContent.html).
 *   Dec 04, 2021. I will be speaking about my work on using machine learning for Search and Recommendation at [Debug Summit 2021](https://lesbianswhotech.org/debugsummit2021/).
 *  October 13, 2021. I will be speaking about my work on reommendations and ranking at [Department of Computer Science - Saint Louis University](https://cs.slu.edu/~esposito/teaching/5090/schedule/index.html).
 * September 27, 2021. I will be speaking about my work on Alexa Conversations at [NLP Summit 2021](https://www.nlpsummit.org/alexa-conversations-an-ai-driven-approach-for-creating-task-oriented-dialogue-systems/) this October.
