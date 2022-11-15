@@ -115,6 +115,8 @@ Service and leadership
 
 Honors and Awards
 ======
+I'm passed that phase. I'm honored to have a normal life.
+<> sfdfs
 * Grace Hopper 2017 Travel Grant
 * Teaching Award, CS department, 2016
 * KDD 2016 Travel Grant
