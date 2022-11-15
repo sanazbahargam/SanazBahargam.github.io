@@ -21,11 +21,11 @@ Education
  Work experience
 ======
 
-* 2021 - Present: Applied Scientist, tech lead (L6)
+* 2021 - Present: Applied Scientist, tech lead 
   * [Amazon Lab126](https://amazon.jobs/en/teams/lab126/)
   * Area of Expertise: NLProc, Deep Learning
 
-* 2017 - 2021: Machine Learning Engineer (L6)
+* 2017 - 2021: Machine Learning Engineer
   * Twitter
   * Area of Expertise: Deep Learning, NLProc, Learning to Rank
 
