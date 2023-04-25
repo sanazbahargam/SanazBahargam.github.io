@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Sanaz Bahargam. I am currently an applied scientist and tech lead at [Amazon Lab 126](https://amazon.jobs/en/teams/lab126/) (Alexa AI team) working on NLP and Deep Learning. Before that I was at Twitter, working on Deep Learning, NLP and Learning to Rank problems with a focus on Search, Explore, and Trends/Events products. During the last few years, I've been extensively working on Large Language Models, Transfer Learning, Few-Shot Laerning, Multi-Task Learning, Representation Learning, Learning to Rank, Personalization/Recommendation and Generative AI for NLP
+My name is Sanaz Bahargam. I am currently an applied scientist and tech lead at [Amazon Lab 126](https://amazon.jobs/en/teams/lab126/) (Alexa AI team) working on NLP and Deep Learning. Before that I was at Twitter, working on Deep Learning, NLP and Learning to Rank problems with a focus on Search, Explore, and Trends/Events products. During the last few years, I've been extensively working on Large Language Models, Transfer Learning, Few-Shot Learning, Multi-Task Learning, Representation Learning, Learning to Rank, Personalization/Recommendation and Generative AI for NLP
 
 I completed a Ph.D. degree at the [Computer Science](http://www.cs.bu.edu/) Department of [Boston University](http://www.bu.edu/) in Machine Learning in June 2017.
 My research interests are in the areas of Natural Language Processing, Applied Machine Learning, Deep Learning, and Algorithmic Data Mining.
@@ -22,7 +22,7 @@ Recent News
 ======
 *   Jan 27, 2022. I will be speaking about Deep Learning in Industry at [Department of Computer Science - University of Colorado Boulder](https://home.cs.colorado.edu/~DrG/Courses/NeuralNetworksAndDeepLearning/CourseContent.html).
 *   Dec 04, 2021. I will be speaking about my work on using machine learning for Search and Recommendation at [Debug Summit 2021](https://lesbianswhotech.org/debugsummit2021/).
-*  October 13, 2021. I will be speaking about my work on reommendations and ranking at [Department of Computer Science - Saint Louis University](https://cs.slu.edu/~esposito/teaching/5090/schedule/index.html).
+*  October 13, 2021. I will be speaking about my work on recommendations and ranking at [Department of Computer Science - Saint Louis University](https://cs.slu.edu/~esposito/teaching/5090/schedule/index.html).
 * September 27, 2021. I will be speaking about my work on Alexa Conversations at [NLP Summit 2021](https://www.nlpsummit.org/alexa-conversations-an-ai-driven-approach-for-creating-task-oriented-dialogue-systems/) this October.
 * September 1, 2021. I will be speaking about my team's work on task-based dialog system at [Global #ArtificialIntelligence](http://www.globalbigdataconference.com/santa-clara/global-artificial-intelligence-virtual-conference-127/speaker-details/sanaz-bahargan-114123.html) Conference this October. [YouTube](https://www.youtube.com/watch?v=sScbpUvQYpM)
 * August 4, 2021. I'm happy to be a mentor for  [#IGLUcontest @NeurIPSConf](https://www.iglu-contest.net/mentors), Looking forward to helping the participants.
