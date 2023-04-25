@@ -23,11 +23,11 @@ Education
 
 * 2021 - Present: Applied Scientist, tech lead 
   * [Amazon Lab126](https://amazon.jobs/en/teams/lab126/)
-  * Area of Expertise: NLProc, Deep Learning
+  * Area of Expertise: Natural Language Processing, Large Language Models, Multi-Task Learning, Transfer Learning, Few-Shot Learning, Generative AI
 
 * 2017 - 2021: Machine Learning Engineer
   * Twitter
-  * Area of Expertise: Deep Learning, NLProc, Learning to Rank
+  * Area of Expertise: Recommendation, Personalization, Ranking, Natural Language Processing (NLP), Representation Learning
 
 * Summer 2016: Visiting Research Scientist and Adjunct Professor
   * Stevens Institute of Technology  
