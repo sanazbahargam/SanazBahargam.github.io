@@ -20,8 +20,12 @@ Education
 
  Work experience
 ======
+* 2023 - Present: Tech Lead
+  * google
+  * Area of Expertise: Large Language Models, Generative AI
 
-* 2021 - Present: Applied Scientist, tech lead 
+
+* 2021 - 2023: Applied Scientist, tech lead 
   * [Amazon Lab126](https://amazon.jobs/en/teams/lab126/)
   * Area of Expertise: Natural Language Processing, Large Language Models, Multi-Task Learning, Transfer Learning, Few-Shot Learning, Generative AI
 
