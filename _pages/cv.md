@@ -31,14 +31,14 @@ Education
 
 * 2017 - 2021: Machine Learning Engineer
   * Twitter
-  * Area of Expertise: Recommendation, Personalization, Ranking, Natural Language Processing (NLP), Representation Learning
+  * Area of Expertise: Personalization/Ranking, Natural Language Processing (NLP), Representation Learning
 
-* Summer 2016: Visiting Research Scientist and Adjunct Professor
+* 2016: Adjunct Faculty and Researcher
   * Stevens Institute of Technology  
   * Teaching Data Science and Machine Learning course
   * Research on forming efficient teams
  
-* Summer 2015: Research Intern
+* 2015: Data Scientist (ML)
   * 128 Technology  
   * Research on using machine learning for traffic modeling and traffic congestion avoidance. In addition, research on using unsupervised and supervised anomaly detection analysis using network traffic feature distributions, clustering methods, and neural networks.
 
