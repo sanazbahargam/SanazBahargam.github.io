@@ -119,4 +119,4 @@ Service and leadership
 
 Honors and Awards
 ======
-I am passed that phase!
+I've moved beyond that phase!
