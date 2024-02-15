@@ -21,7 +21,7 @@ Education
  Work experience
 ======
 * 2023 - Present: Tech Lead
-  * google
+  * Google
   * Area of Expertise: Large Language Models, Generative AI
 
 
