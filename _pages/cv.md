@@ -117,8 +117,4 @@ Service and leadership
 * INFORMS Journal on Computing (IJOC)-2016
 * WSDM-2016
 
----
-Honors and Awards
-======
-I've moved beyond that phase!
----
+ 
